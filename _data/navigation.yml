@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: https://aknottymathematician.github.io/home/
   - title: "About"
     url: https://aknottymathematician.github.io/about/
   - title: "Sample Posts"
