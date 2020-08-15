@@ -69,6 +69,21 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
+#Default settings
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
 # Social Sharing
 twitter:
   username               :
