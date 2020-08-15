@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: https://aknottymathematician.github.io/
   - title: "About"
-    url: https://aknottymathematician.github.io/about/
+    url: https://aknottymathematician.github.io/about/index.html
   - title: "Sample Posts"
     url: https://aknottymathematician.github.io/recipes-archive/
   # - title: "Sample Collections"
