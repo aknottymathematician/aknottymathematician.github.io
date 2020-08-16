@@ -113,7 +113,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jasraj-date/" #"https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
