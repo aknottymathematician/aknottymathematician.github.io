@@ -29,7 +29,7 @@ teaser                   : "/assets/images/background.jpg" # path of fallback te
 logo                     : "/assets/images/blog_header_image.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "A Knotty Mathematician" # overrides the website title displayed in the masthead, use " " for no title
 header:
-  image: "/assets/images/image-filename.jpg"
+  image: "/assets/images/background.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
