@@ -5,6 +5,7 @@ tags: [neaural network, python, deep learning]
 header:
   image: ""
 excerpt: "Neaural Network, Deep Learning"
+mathjax: "true"
 
 ---
 
@@ -43,10 +44,10 @@ Python code block:
 Here's some inline code `x+y`
 
 Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/youtube-recommender-system.jpg" alt="youtube recommender system">
 
 Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/youtube-recommender-system.jpg)
 
 Here's some math:
 
