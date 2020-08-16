@@ -44,10 +44,10 @@ Python code block:
 Here's some inline code `x+y`
 
 Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/youtube-recommender-system.jpg" alt="youtube recommender system">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/youtube-recommender-system.png" alt="youtube recommender system">
 
 Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/youtube-recommender-system.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/youtube-recommender-system.png)
 
 Here's some math:
 
