@@ -3,7 +3,7 @@ title: "Neural Network from scratch"
 date: 2020-08-16
 tags: [neural network, python, deep learning]
 header:
-  image: ""
+  image: "/assets/images/KM_blog-posts-banner_16-August-2020.jpg"
 excerpt: "Neural Network, Deep Learning"
 mathjax: "true"
 
