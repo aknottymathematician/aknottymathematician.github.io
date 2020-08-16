@@ -19,7 +19,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "A Knotty Mathematician"
 title_separator          : "-"
-subtitle                 : "A blend of Math and AI" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jasraj Date"
 description              : "A blend of Math and AI"
 url                      : "https://aknottymathematician.github.io" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
