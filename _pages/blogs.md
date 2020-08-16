@@ -3,7 +3,8 @@ layout: archive
 permalink: /blogs/
 author_profile: true
 header:
-  image: "/assets/images/background.jpg"
+  image: "/assets/images/KM_blog-posts-banner_16-August-2020.jpg"
+  
 ---
 
 {% include group-by-array collection=site.posts field="tags" %}
