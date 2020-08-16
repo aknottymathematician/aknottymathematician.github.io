@@ -1,7 +1,7 @@
 ---
 title: "Neural Network from scratch"
 date: 2020-08-16
-tags: [neaural network, python, deep learning]
+tags: [neural network, python, deep learning]
 header:
   image: ""
 excerpt: "Neural Network, Deep Learning"
