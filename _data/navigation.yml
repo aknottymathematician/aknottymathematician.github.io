@@ -3,9 +3,9 @@ main:
   - title: "Home"
     url: https://aknottymathematician.github.io/
   - title: "About"
-    url: https://aknottymathematician.github.io/about/index.html
-  - title: "Sample Posts"
-    url: https://aknottymathematician.github.io/first_blog/
+    url: https://aknottymathematician.github.io/about/
+  - title: "Blogs"
+    url: https://aknottymathematician.github.io/blogs/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
