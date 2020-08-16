@@ -19,7 +19,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "A Knotty Mathematician"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "A blend of Math and AI" # site tagline that appears below site title in masthead
 name                     : "Jasraj Date"
 description              : "A blend of Math and AI"
 url                      : "https://aknottymathematician.github.io" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -105,16 +105,16 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "aknottymathematician@gmail.com" #"mailto:your.name@email.com"
+      url: "mailto:aknottymathematician@gmail.com" #"mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://aknottymathematician.github.io"  #"https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.linkedin.com/in/jasraj-date/" #"https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aknottymathematician"  #"https://github.com/"
