@@ -1,15 +1,15 @@
 ---
-title: "Neural Network from scratch"
+title: "Python Code"
 date: 2020-08-16
-tags: [neural network, python, deep learning]
+tags: [python]
 header:
   image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
-excerpt: "Neural Network, Deep Learning"
+excerpt: "Python Coding"
 mathjax: "true"
 
 ---
 
-#H1 Code to add two numbers
+#Code to add two numbers
 
 Here we see three ways to add two numbers. Two using functions one without functions -  
 
