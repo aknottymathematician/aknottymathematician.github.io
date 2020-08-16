@@ -1,10 +1,10 @@
 ---
-title: "Neaural Network from scratch"
+title: "Neural Network from scratch"
 date: 2020-08-16
 tags: [neaural network, python, deep learning]
 header:
   image: ""
-excerpt: "Neaural Network, Deep Learning"
+excerpt: "Neural Network, Deep Learning"
 mathjax: "true"
 
 ---
