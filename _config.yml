@@ -98,17 +98,17 @@ analytics:
 # Site Author
 author:
   name             : "Jasraj Date"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/AKM_bio_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A math guy who knows a little bit about NLP"
-  location         : ""
+  location         : "Mumbai, MH"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:aknottymathematician@gmail.com" #"mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://aknottymathematician.github.io"  #"https://your-website.com"
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       url: "https://aknottymathematician.github.io"  #"https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
