@@ -1,7 +1,6 @@
 ---
-title: "Neural Network from scratch"
+title: "Sample Page"
 date: 2020-08-16
-tags: [neural network, python, deep learning]
 header:
   image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
 excerpt: "Neural Network, Deep Learning"
