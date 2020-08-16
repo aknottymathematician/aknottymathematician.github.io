@@ -38,8 +38,8 @@ Python code block:
     import numpy as np
     
     def test_function(x,y):
-    z = np.sum(x,y)
-    return z
+      z = np.sum(x,y)
+      return z
 ```
 Here's some inline code `x+y`
 
