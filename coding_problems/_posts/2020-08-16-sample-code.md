@@ -9,7 +9,7 @@ mathjax: "true"
 
 ---
 
-#Code to add two numbers
+# Code to add two numbers
 
 Here we see three ways to add two numbers. Two using functions one without functions -  
 
