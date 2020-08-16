@@ -25,11 +25,10 @@ description              : "A blend of Math and AI"
 url                      : "https://aknottymathematician.github.io" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "aknottymathematician/aknottymathematician.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/background.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/blog_header_image.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/AKM-Profile-pic2_16-August-2020.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "A Knotty Mathematician" # overrides the website title displayed in the masthead, use " " for no title
-header:
-  image: "/assets/images/background.jpg"
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
