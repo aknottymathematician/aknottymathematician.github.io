@@ -1,7 +1,9 @@
 ---
-layout: single
+layout: tag
 permalink: /coding/
 author_profile: true
+taxonomy: blog
+entries_layout: list
 header:
   image: "/assets/images/KM_coding-problems_16-August-2020.jpg"
   
