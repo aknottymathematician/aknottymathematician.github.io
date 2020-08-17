@@ -1,6 +1,15 @@
 ---
 title: "Sample Page"
+permalink: /sample-post/
+layout: single
 date: 2020-08-16
+comments: true 
+author_profile: true
+related: true
+share: true
+read_time: true
+tags:
+    - blog
 header:
   image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
 excerpt: "Neural Network, Deep Learning"
@@ -8,11 +17,11 @@ mathjax: "true"
 
 ---
 
-#H1 Heading
+# H1 Heading
 
-##H2 Heading
+## H2 Heading
 
-###H3 Heading
+### H3 Heading
 
 Here's some basic text
 
