@@ -13,6 +13,7 @@ tags:
 
 header:
   image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
+  teaser: "/assets/images/KM_blog-teaser-banner-1_16-August-2020.jpg"
 excerpt: "Neural Network, Deep Learning"
 mathjax: "true"
 
