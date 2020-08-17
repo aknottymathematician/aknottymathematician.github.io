@@ -1,7 +1,8 @@
 ---
-title: "Neural Network from scratch"
-date: 2020-08-16
+title: "Sample Code"
+permalink: /sample-post/
 layout: single
+date: 2020-08-16
 comments: true 
 author_profile: true
 related: true
