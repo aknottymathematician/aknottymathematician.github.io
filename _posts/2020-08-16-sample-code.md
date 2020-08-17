@@ -1,6 +1,6 @@
 ---
 title: "Sample Code"
-permalink: /sample-post/
+permalink: /sample-code/
 layout: single
 date: 2020-08-16
 comments: true 
