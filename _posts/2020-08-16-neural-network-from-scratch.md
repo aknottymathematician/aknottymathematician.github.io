@@ -1,5 +1,6 @@
 ---
 title: "Neural Network from scratch"
+permalink: /nn-from-scratch/
 date: 2020-08-16
 layout: single
 comments: true 
