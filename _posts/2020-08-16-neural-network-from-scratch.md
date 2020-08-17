@@ -1,7 +1,15 @@
 ---
 title: "Neural Network from scratch"
 date: 2020-08-16
-tags: [neural network, python, deep learning]
+layout: single
+comments: true 
+author_profile: true
+related: true
+share: true
+read_time: true
+tags:
+    - blog
+
 header:
   image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
 excerpt: "Neural Network, Deep Learning"
@@ -9,11 +17,11 @@ mathjax: "true"
 
 ---
 
-#H1 Heading
+# H1 Heading
 
-##H2 Heading
+## H2 Heading
 
-###H3 Heading
+### H3 Heading
 
 Here's some basic text
 
