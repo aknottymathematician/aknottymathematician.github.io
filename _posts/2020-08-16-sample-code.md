@@ -12,7 +12,7 @@ tags:
     - code
 header:
   image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
-excerpt: "Neural Network, Deep Learning"
+excerpt: "A basic python coding example"
 mathjax: "true"
 
 ---
