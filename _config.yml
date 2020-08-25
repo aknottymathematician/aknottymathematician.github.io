@@ -51,8 +51,11 @@ comments:
 reCaptcha:
   siteKey                :
   secret                 :
+# atom_feed:
+#   path                   : feed.xml # blank (default) uses feed.xml
 atom_feed:
-  path                   : feed.xml # blank (default) uses feed.xml
+  path: "http://feeds.feedburner.com/youFeedname"
+
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
