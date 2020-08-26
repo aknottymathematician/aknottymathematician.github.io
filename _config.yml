@@ -280,8 +280,8 @@ defaults:
       path: ""
       type: posts
     values:
-#       layout: single
-      entries_layout: grid
+      layout: single
+#       entries_layout: grid
       author_profile: true
       read_time: true
       share: true
@@ -291,6 +291,6 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: grid
 #       entries_layout: grid
       author_profile: true
