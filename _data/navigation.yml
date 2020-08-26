@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Home"
-    url: https://aknottymathematician.github.io/
+#   - title: "Home"
+#     url: https://aknottymathematician.github.io/
   - title: "About Me"
     url: https://aknottymathematician.github.io/about/
   - title: "Blog Posts"
