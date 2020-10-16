@@ -21,13 +21,8 @@ toc_sticky: true
 
 ---
 
-#What is a Neural Network?
-**Neural Networks** are basically an attempt to make a computer model of the brain. Quite literally though, if we compare the structure of a biological 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/biological_neuron.png" alt="biological neuron"> 
-and a artificial neuron 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
-
-we can see uncanny resemblance between the two.
+# What is a Neural Network?
+**Neural Networks** are basically an attempt to make a computer model of the brain. But although 
 
 
 
