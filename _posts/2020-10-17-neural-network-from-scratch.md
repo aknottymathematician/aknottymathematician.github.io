@@ -1,8 +1,8 @@
 ---
 title: "Neural Network from scratch"
 permalink: /nn-from-scratch/
-date: 2020-08-16
-layout: single
+date: 2020-10-17
+layout: wide
 comments: true 
 author_profile: true
 related: true
@@ -22,7 +22,7 @@ toc_sticky: true
 ---
 
 # What is a Neural Network?
-**Neural Networks** are basically an attempt to make a computer model of the brain. But although 
+**Neural Networks** are basically an attempt to make a computer model of the brain. But even though it is a cool way to describe it, being a math student, I find it much easier to see Neural Networks as mathematical functions that map given input with a desired output (having said that I must admit that I have grossly oversimplified the whole structure). 
 
 
 
