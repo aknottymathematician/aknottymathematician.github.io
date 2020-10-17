@@ -66,7 +66,7 @@ And here's some in *italics*
 
 Here's some **bold**
 
-What about a [link](https://github.com/in/jasraj-date)?
+What about a [link](https://github.com/aknottymathematician)?
 
 Here's a bulleted list:
 * First item
