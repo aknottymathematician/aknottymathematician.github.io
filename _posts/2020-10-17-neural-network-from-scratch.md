@@ -20,10 +20,11 @@ toc: true
 
 ---
 
-Humans have been fairly obsessed with the idea of a machine doing things for them, or at least make their life easier for them, for a very long time now. Starting right from the invention of Wheel to the invention of Computer we pushed the limits of our brain to build such amazing objects. But something changed at the invention of computer, we realised that computers are far too good in one particular aspect as compared to humans, Calculations!
-Then the human obsession of beating the computers at their own game began. We had some truly great human minds who not only challenged but won against the computer, may it be Shakuntala Devi beating the computer in finding the 23rd root of a 50 digit number or Garry Kasparov beating IBM's Deep Blue in chess matches. But soon we came to realise that computers(given correct configurations) are truly unbeatable at all the things that we previously won. So our focus shifted towards making use of the computers' calculative capabilities to solve problems which we find difficult. 
+Humans have been obsessed with the idea of a machine doing things for them, or at least make their life easier for them, for a very long time now. Starting right from the invention of Wheel to the invention of Computer we pushed the limits of our brain to build such amazing objects. But something changed at the invention of computer, we realised that computers are far too good in one particular aspect as compared to humans, Calculations!
 
-While this was happening though, some scientists were working on generating a mathematical model that would "learn". The inspiration of that coming from the most perfect object that we knew which already learnt and developed was a Brain. Thus combining the power of huge calculations and the mathecatical modela that could learn, the idea of a Neural Network(Multi Layered Perceptron) was born.
+Then the human obsession of beating the computers at their own game began. We had some truly great human minds who not only challenged but won against the computer, may it be Shakuntala Devi beating the computer in finding the 23rd root of a 50 digit number or GM Garry Kasparov beating IBM's Deep Blue in chess matche. But soon we came to realise that computers(given correct configurations) are truly unbeatable at all the things that we previously won against them. So our focus shifted towards making use of the computers' calculative capabilities to solve problems which we found difficult. 
+
+While this was happening though, some scientists were working on generating a mathematical model that would "learn". The inspiration of that coming from the most perfect object that we knew, which already learnt and developed was, a Brain. Thus combining the power of huge calculations and the mathematical models that could learn, the idea of a Neural Network(Multi Layered Perceptron) was born.
 
 
 ## What is a Neural Network?
@@ -69,7 +70,7 @@ However things don't remain that simple when meanings of the words matter, examp
 I will be covering the concepts of NLP and how we would solve this problem, in depth, in future blogs. For now it is enough to know that we vectorize the words or sentences and number of neurons in input layer is same as the dimension of the word or sentence vectors.
 
 Basically an input for NN with $$n$$ input neurons is a matrix if dimension $$n \times 1$$.
-
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/input_matrix.png" alt="input matrix"> 
 
 
 
