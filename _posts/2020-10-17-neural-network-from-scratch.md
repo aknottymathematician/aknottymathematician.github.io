@@ -29,7 +29,7 @@ toc: true
 
 But even though idea of a biological neuron being an inspiration is pretty interesting, I find it much easier to see an artificial neuron as mathematical function that maps given input with a desired output:
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/artifial_neuron.png" alt="artificial neuron"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/artifcial_neuron.png" alt="artificial neuron"> 
 
 As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and output is some $$y$$. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
 
