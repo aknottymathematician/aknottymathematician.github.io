@@ -27,7 +27,7 @@ toc: true
 
 
 
-But even though idea of a biological neuron being an inspiration is pretty interesting, I find it much easier to see an artificial neuron as mathematical function that map given input with a desired output:
+But even though idea of a biological neuron being an inspiration is pretty interesting, I find it much easier to see an artificial neuron as mathematical function that maps given input with a desired output:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artifial_neuron.png" alt="artificial neuron"> 
 
@@ -37,7 +37,7 @@ So without further adieu let us dive into the basics of Neural Network Architect
 
 
 ## Architecture of a Neural Network
-Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with each layer containing only single neuron. If we were to extrapolate this idea increase the number of neurons in each layer the architecture would look something like this:
+Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with funtion layer and output layer containing only single neuron. If we were to extrapolate this idea increase the number of neurons in each layer the architecture would look something like this:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NN_architecture.png" alt="Neural Network architecture"> 
 
@@ -45,7 +45,12 @@ Let's start small, as we saw in the above diagram, there's an "input layer", a "
 
 ## Components of a Neural Network flow
 
-I have divided the whole process of a neural network training into 5 parts:
+To save myself from being confused I divided the whole process of a neural network training into 5 parts:
+* Input Matrix
+* Weights, Bias and Activation funtions
+* Feedforward process
+* Loss Calculation
+* Updating the weights
 
 
 
