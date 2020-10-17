@@ -31,13 +31,13 @@ But even though idea of a biological neuron being an inspiration is pretty inter
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
 
-As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and output is some $$y$$. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
+As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 x w_1 + x_2 x w_2 + x_3 x w_3)$$. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
 
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
 
 ## Architecture of a Neural Network
-Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with funtion layer and output layer containing only single neuron. If we were to extrapolate this idea increase the number of neurons in each layer the architecture would look something like this:
+Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with funtion layer and output layer containing only single neuron. If we were to extrapolate this idea and increase the number of neurons in each layer and the number of hidden layers, the architecture would look something like this:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NN_architecture.png" alt="Neural Network architecture"> 
 
