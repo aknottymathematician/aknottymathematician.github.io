@@ -20,6 +20,12 @@ toc: true
 
 ---
 
+Humans have been fairly obsessed with the idea of a machine doing things for them, or at least make their life easier for them, for a very long time now. Starting right from the invention of Wheel to the invention of Computer we pushed the limits of our brain to build such amazing objects. But something changed at the invention of computer, we realised that computers are far too good in one particular aspect as compared to humans, Calculations!
+Then the human obsession of beating the computers at their own game began. We had some truly great human minds who not only challenged but won against the computer, may it be Shakuntala Devi beating the computer in finding the 23rd root of a 50 digit number or Garry Kasparov beating IBM's Deep Blue in chess matches. But soon we came to realise that computers(given correct configurations) are truly unbeatable at all the things that we previously won. So our focus shifted towards making use of the computers' calculative capabilities to solve problems which we find difficult. 
+
+While this was happening though, some scientists were working on generating a mathematical model that would "learn". The inspiration of that coming from the most perfect object that we knew which already learnt and developed was a Brain. Thus combining the power of huge calculations and the mathecatical modela that could learn, the idea of a Neural Network(Multilayered Perceptron) was born.
+
+
 ## What is a Neural Network?
 **Neural Networks** are basically an attempt to make a mathematical model of the brain. Let's see the working of a single neuron, 
 
@@ -27,11 +33,11 @@ toc: true
 
 
 
-But even though idea of a biological neuron being an inspiration is pretty interesting, I find it much easier to see an artificial neuron as mathematical function that maps given input with a desired output:
+But even though idea of a biological neuron being an inspiration is pretty interesting, I find it much easier to see a neuron as mathematical function that maps given input with a desired output:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
 
-As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 x w_1 + x_2 x w_2 + x_3 x w_3)$$. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
+As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
 
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
@@ -45,14 +51,16 @@ Let's start small, as we saw in the above diagram, there's an "input layer", a "
 
 ## Components of a Neural Network flow
 
-To save myself from being confused I divided the whole process of a neural network training into 5 parts:
+To save myself from the confusion I divided the whole process of a neural network training into 5 parts:
 * Input Matrix
 * Weights, Bias and Activation funtions
 * Feedforward process
 * Loss Calculation
 * Updating the weights
 
+### Input Matrix
 
+The main idea of a neaural network is to be able to solve our problems.
 
 # H1 Heading
 
