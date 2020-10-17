@@ -25,7 +25,8 @@ toc: true
 a desired output:
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
 
-As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights $$w_1$$, $$w_2$$, $$w_3$$, are passed into some function $$\sigma$$ and output is some $$y$$.
+As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights $$w_1$$, $$w_2$$, $$w_3$$, are passed into some function $$\sigma$$ and output is some $$y$$. But I must admit here that I have grossly oversimplified this whole process and even though the basic idea remains the same there are multiple components and steps involved in the working of a neural network
+
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
 
