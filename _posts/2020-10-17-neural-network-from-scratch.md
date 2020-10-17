@@ -61,11 +61,16 @@ To save myself from the confusion I divided the whole process of a neural networ
 ### Input Matrix
 
 The main idea of a neaural network is to be able to solve our problems and there is no shortage of the problems that can be solved, may it be classification or regression or unsupervised learning. But here's where it gets a little tricky, all the operations that we do are mathematical in nature and we won't always get the data which is numerical, for example text data, what do we do in that case?
+
 Well, let's take a simple example we have to classify fruits with features as colour, taste, mass and two types of fruits(classes) Apple and Orange. Now mass is a numerical value, shouldn't be a problem when it passes through the NN. However colour and taste are text values, but there is a simple way out here, since meanings of the words red and orange are not required but only the value that they posses we can simply index them({"red":0, "orange":1}) and use those numbers as inputs for NN. Same goes for the feature taste. 
+
 However things don't remain that simple when meanings of the words matter, example say we are building a model which will classify the given sentence as positive or negative. In that case, simply assigning a number to each word won't help since the number of unique words can be in millions!
+
 I will be covering the concepts of NLP and how we would solve this problem, in depth, in future blogs. For now it is enough to know that we vectorize the words or sentences and number of neurons in input layer is same as the dimension of the word or sentence vectors.
 
-Basically an input for NN with $$n$$ input neurons is a matrix if dimension $$n \times 1$$ 
+Basically an input for NN with $$n$$ input neurons is a matrix if dimension $$n \times 1$$.
+
+
 
 
 # H1 Heading
