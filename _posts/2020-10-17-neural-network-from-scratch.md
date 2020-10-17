@@ -20,28 +20,30 @@ toc: true
 
 ---
 
-# What is a Neural Network?
-**Neural Networks** are basically an attempt to make a mathematical model of the brain. 
+## What is a Neural Network?
+**Neural Networks** are basically an attempt to make a mathematical model of the brain. Let's see the working of a single neuron, 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/biological_neuron.png" alt="biological neuron"> 
 
-But even though idea of a biological neuron being an inspiration is pretty interesting, I find it much easier to see an artificial neuron as mathematical functions that map given input with a desired output:
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/single_NN.png" alt="artificial neuron"> 
 
-As you can see the input value $$x$$ multiplied by some weight are passed into some function $$f$$ and output is some $$y$$. But I must admit here that I have grossly oversimplified this whole process and even though the basic idea remains the same there are multiple components and steps involved in the working of a neural network
+But even though idea of a biological neuron being an inspiration is pretty interesting, I find it much easier to see an artificial neuron as mathematical function that map given input with a desired output:
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/artifial_neuron.png" alt="artificial neuron"> 
+
+As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and output is some $$y$$. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
 
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
 
-# Architecture of a Neural Network
+## Architecture of a Neural Network
 Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with each layer containing only single neuron. If we were to extrapolate this idea increase the number of neurons in each layer the architecture would look something like this:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NN_architecture.png" alt="Neural Network architecture"> 
 
 
 
-# Components of a Neural Network flow
+## Components of a Neural Network flow
 
 I have divided the whole process of a neural network training into 5 parts:
 
