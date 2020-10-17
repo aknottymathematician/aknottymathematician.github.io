@@ -2,7 +2,7 @@
 title: "Neural Network from scratch"
 permalink: /nn-from-scratch/
 date: 2020-10-17
-layout: splash
+layout: single
 comments: true 
 author_profile: true
 related: true
