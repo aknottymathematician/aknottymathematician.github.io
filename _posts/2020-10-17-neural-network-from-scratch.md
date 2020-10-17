@@ -23,7 +23,7 @@ toc: true
 Humans have been fairly obsessed with the idea of a machine doing things for them, or at least make their life easier for them, for a very long time now. Starting right from the invention of Wheel to the invention of Computer we pushed the limits of our brain to build such amazing objects. But something changed at the invention of computer, we realised that computers are far too good in one particular aspect as compared to humans, Calculations!
 Then the human obsession of beating the computers at their own game began. We had some truly great human minds who not only challenged but won against the computer, may it be Shakuntala Devi beating the computer in finding the 23rd root of a 50 digit number or Garry Kasparov beating IBM's Deep Blue in chess matches. But soon we came to realise that computers(given correct configurations) are truly unbeatable at all the things that we previously won. So our focus shifted towards making use of the computers' calculative capabilities to solve problems which we find difficult. 
 
-While this was happening though, some scientists were working on generating a mathematical model that would "learn". The inspiration of that coming from the most perfect object that we knew which already learnt and developed was a Brain. Thus combining the power of huge calculations and the mathecatical modela that could learn, the idea of a Neural Network(Multilayered Perceptron) was born.
+While this was happening though, some scientists were working on generating a mathematical model that would "learn". The inspiration of that coming from the most perfect object that we knew which already learnt and developed was a Brain. Thus combining the power of huge calculations and the mathecatical modela that could learn, the idea of a Neural Network(Multi Layered Perceptron) was born.
 
 
 ## What is a Neural Network?
@@ -37,13 +37,13 @@ But even though idea of a biological neuron being an inspiration is pretty inter
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
 
-As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
+As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. We call this "single layered" structure a Perceptron. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
 
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
 
 ## Architecture of a Neural Network
-Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with funtion layer and output layer containing only single neuron. If we were to extrapolate this idea and increase the number of neurons in each layer and the number of hidden layers, the architecture would look something like this:
+Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with funtion layer and output layer containing only single neuron. If we were to extrapolate this idea and increase the number of neurons in each layer and the number of hidden layers we get a MLP(Multi Layered Perceptron), the architecture would look something like this:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NN_architecture.png" alt="Neural Network architecture"> 
 
@@ -60,7 +60,13 @@ To save myself from the confusion I divided the whole process of a neural networ
 
 ### Input Matrix
 
-The main idea of a neaural network is to be able to solve our problems.
+The main idea of a neaural network is to be able to solve our problems and there is no shortage of the problems that can be solved, may it be classification or regression or unsupervised learning. But here's where it gets a little tricky, all the operations that we do are mathematical in nature and we won't always get the data which is numerical, for example text data, what do we do in that case?
+Well, let's take a simple example we have to classify fruits with features as colour, taste, mass and two types of fruits(classes) Apple and Orange. Now mass is a numerical value, shouldn't be a problem when it passes through the NN. However colour and taste are text values, but there is a simple way out here, since meanings of the words red and orange are not required but only the value that they posses we can simply index them({"red":0, "orange":1}) and use those numbers as inputs for NN. Same goes for the feature taste. 
+However things don't remain that simple when meanings of the words matter, example say we are building a model which will classify the given sentence as positive or negative. In that case, simply assigning a number to each word won't help since the number of unique words can be in millions!
+I will be covering the concepts of NLP and how we would solve this problem, in depth, in future blogs. For now it is enough to know that we vectorize the words or sentences and number of neurons in input layer is same as the dimension of the word or sentence vectors.
+
+Basically an input for NN with $$n$$ input neurons is a matrix if dimension $$n \times 1$$ 
+
 
 # H1 Heading
 
