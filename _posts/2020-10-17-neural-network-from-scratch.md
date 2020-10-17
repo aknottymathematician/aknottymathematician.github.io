@@ -24,7 +24,7 @@ toc: true
 **Neural Networks** are basically an attempt to make a computer model of the brain. But even though it is a cool way to describe it, being a math student, I find it much easier to see an artificial neuron as mathematical functions that map given input with a desired output:
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
 
-As you can see the input values $x_1$, $x_2$, $x_3$, multiplied by some weights $w_1$, $w_2$, $w_3$, are passed into some function $\sigma$ and output is some $y$
+As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights $$w_1$$, $$w_2$$, $$w_3$$, are passed into some function $$\sigma$$ and output is some $$y$$.
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
 
