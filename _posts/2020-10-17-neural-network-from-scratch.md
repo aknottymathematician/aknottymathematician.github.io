@@ -21,7 +21,7 @@ toc: true
 ---
 
 # What is a Neural Network?
-**Neural Networks** are basically an attempt to make a computer model of the brain. But even though it is a cool way to describe it, being a math student, I find it much easier to see an artificial neuron as mathematical functions that map given input with a desired output:
+**Neural Networks** are basically an attempt to make a computer model of the brain. But even though the comparison with a biological neuron is pretty interesting, being a math student, I find it much easier to see an artificial neuron as mathematical functions that map given input with a desired output:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
 
@@ -30,8 +30,15 @@ As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some we
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
 
+# Architecture of a Neural Network
+Let's start small, as we saw 
 
 
+
+
+# Components of a Neural Network flow
+
+I have divided the whole process of a neural network training into 5 parts:
 
 
 
