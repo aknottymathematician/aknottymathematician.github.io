@@ -281,7 +281,7 @@ defaults:
       type: posts
     values:
       layout: single
-      comments: true
+      #comments: true
       comments:
         provider: "utterances"
         utterances:
