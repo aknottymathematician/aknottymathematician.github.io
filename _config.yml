@@ -281,7 +281,8 @@ defaults:
       type: posts
     values:
       layout: single
-      #comments: true
+      classes: wide
+      comments: true
       comments:
         provider: "utterances"
         utterances:
@@ -298,5 +299,6 @@ defaults:
       type: pages
     values:
       layout: single
+      classes: wide
       entries_layout: grid
       author_profile: true
