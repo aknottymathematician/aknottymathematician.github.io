@@ -1,6 +1,6 @@
 ---
 title: "Neural Network from scratch"
-permalink: /blogs/nn-from-scratch/
+permalink: /nn-from-scratch/
 date: 2020-10-17
 layout: single
 classes: wide
@@ -15,7 +15,7 @@ tags:
 header:
   image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
   teaser: "/assets/images/KM_blog-teaser-banner-1_16-August-2020.jpg"
-excerpt: "Neural Network, Deep Learning"
+
 mathjax: "true"
 toc: true
 
