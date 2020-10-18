@@ -35,15 +35,15 @@ While this was happening though, some scientists were working on generating a ma
 ## What is a Neural Network?
 **Neural Networks** are basically an attempt to make a mathematical model of the brain. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/biological_neuron.png" alt="biological neuron"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/biological_neuron.png" alt="biological neuron"> A Biological neuron
 
-A Bio 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
 
-You can see the similarities between the biological artifial structures. The idea of a biological neuron being an inspiration is pretty interesting, but I find it much easier to see a neuron as mathematical function that maps given input with a desired output:
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> A Perceptron
 
-Let's see the working of a single neuron, the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. We call this "single layered" structure a Perceptron. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
+You can see the similarities between the biological and artifial structures. The idea of a one of our brain's component being an inspiration is pretty interesting, but I find it much easier to see a neuron as mathematical function that maps given input with a desired output:
+
+Let's see the working of a single neuron, the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights $$w_1$$, $$w_2$$, $$w_3$$, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. We call this "single layered" structure a Perceptron. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
 
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
@@ -93,13 +93,12 @@ However things don't remain that simple when meanings of the words matter, examp
 
 I will be covering the concepts of NLP and how we would solve this problem, in depth, in future blogs. For now it is enough to know that we vectorize the words or sentences and number of neurons in input layer is same as the dimension of the word or sentence vectors.
 
-Basically an input for NN with $$n$$ input neurons is a matrix of dimension $$n \times 1$$.
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/input_matrix.png" alt="input matrix"> 
-
 
 ### Weights, Bias and Activation functions
 
+- **Weights** decide the importance of the input coming into a neuron. Weights are initialised randomly in the beginning, later however they will be automatically calculated based on the input and the output shapes. The weights are matrices which transform the input shape into the output shape by some mathematical operation([Matrix Multiplication in terms of Linear Algebra](https://www.youtube.com/watch?v=XkY2DOUCWMU)).
+
+- **Bias** is a non-zero number defined by us and it acts the same way as $$c$$ in the representing a line $$y = m\timesx + c$$. Basically making sure that even if input into a neuron has value zero, 
 
 
 
