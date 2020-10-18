@@ -37,6 +37,8 @@ While this was happening though, some scientists were working on generating a ma
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/biological_neuron.png" alt="biological neuron"> 
 
+A Bio 
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
 
 You can see the similarities between the biological artifial structures. The idea of a biological neuron being an inspiration is pretty interesting, but I find it much easier to see a neuron as mathematical function that maps given input with a desired output:
@@ -64,6 +66,7 @@ In the above architecture, there are four layers -
 
 Theoretically there is no restriction on the number of neurons in each layer or the number of layers, but in practice there is an upper limit to these numbers. What is this limit depends on the processing power of the system, latency limit and of course the cost of the financial cost of the system that would perform such calculations.
 
+[Primary Button](#){: .btn}
 
 ### Workflow of a neural network
 
