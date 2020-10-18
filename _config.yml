@@ -287,7 +287,7 @@ defaults:
         utterances:
           theme: "github-light" # "github-dark"
           issue_term: "pathname"
-#       entries_layout: grid
+      entries_layout: grid
       author_profile: true
       read_time: true
       share: true
