@@ -48,14 +48,29 @@ So without further adieu let us dive into the basics of Neural Network Architect
 
 
 ## Architecture of a Neural Network
-Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with funtion layer and output layer containing only single neuron. If we were to extrapolate this idea and increase the number of neurons in each layer and the number of hidden layers we get a MLP(Multi Layered Perceptron), the architecture would look something like this:
+Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with funtion layer and output layer containing only single neuron. This structure is called a perceptron. If we were to extrapolate this idea and increase the number of neurons in each layer and the number of "function" layers we get a MLP(Multi Layered Perceptron), the structure would look something like this:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NN_architecture.png" alt="Neural Network architecture"> 
 
-### Components in architecture of a Neural Network 
-**Neuron -** A neuron is the most basic unit of a Neural Network. Each neuron is a mathematical operation that takes it's input, multiplies it by it's weights and then passes the sum through the activation function to the other neurons.
+In the above architecture, there are four layers - 
+* 1 Input Layer with 3 neurons
+* 2 Hidden(Function) Layers with 4 neurons each
+* 1 Output Layer with 2 neurons
+  
 
-**Layer -**
+### Components in architecture of a Neural Network 
+**Neuron -** A neuron is the most basic unit of a Neural Network. Each neuron stores information either as a real number or a mathematical operation that takes input, multiplies it by it's weights and then passes the sum through the activation function to the other neurons.
+
+**Layer -** A layer is multiple neurons working together. Input Layer takes in the data in form of vectors. Hidden layer processes that data using functions which we call activation functions. Output layer gives us the final result after the data has passed through the whole architecture.
+
+Theoretically there is no restriction on the number of neurons in each layer or the number of layers, but in practice there is an upper limit to these numbers. What is this limit depends on the processing power of the system, latency limit and of course the cost of the financial cost of the system that would perform such calculations.
+
+
+### Workflow of a neural network
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/flow_of_nn.png" alt="Flow of NN"> 
+
+
 
 ## Components of a Neural Network flow
 
