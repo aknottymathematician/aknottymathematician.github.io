@@ -27,18 +27,6 @@ Then the human obsession of beating the computers at their own game began. We ha
 While this was happening though, some scientists were working on generating a mathematical model that would "learn". The inspiration of that coming from the most perfect object that we knew, which already learnt and developed was, a Brain. Thus combining the power of huge calculations and the mathematical models that could learn, the idea of a Neural Network(Multi Layered Perceptron) was born.
 
 
-## What is a Neural Network?
-
-## Architecture of a Neural Network
-### Components in architecture of a Neural Network 
-
-## Components of a Neural Network flow
-### Input Matrix
-### Weights, Bias and Activation functions
-### Feedforward process
-### Loss Calculation
-### Backpropagation
-
 
 
 
