@@ -282,6 +282,11 @@ defaults:
     values:
       layout: single
       comments: true
+      comments:
+        provider: "utterances"
+        utterances:
+          theme: "github-light" # "github-dark"
+          issue_term: "pathname"
 #       entries_layout: grid
       author_profile: true
       read_time: true
