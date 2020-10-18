@@ -48,16 +48,19 @@ Let's start small, as we saw in the above diagram, there's an "input layer", a "
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NN_architecture.png" alt="Neural Network architecture"> 
 
+### Components in architecture of a Neural Network 
+**Neuron -** A neuron is the most basic unit of a Neural Network. Each neuron is a mathematical operation that takes it's input, multiplies it by it's weights and then passes the sum through the activation function to the other neurons.
 
+**Layer -**
 
 ## Components of a Neural Network flow
 
 To save myself from the confusion I divided the whole process of a neural network training into 5 parts:
 * Input Matrix
-* Weights, Bias and Activation funtions
+* Weights, Bias and Activation functions
 * Feedforward process
 * Loss Calculation
-* Updating the weights
+* Backpropagation
 
 ### Input Matrix
 
@@ -70,7 +73,30 @@ However things don't remain that simple when meanings of the words matter, examp
 I will be covering the concepts of NLP and how we would solve this problem, in depth, in future blogs. For now it is enough to know that we vectorize the words or sentences and number of neurons in input layer is same as the dimension of the word or sentence vectors.
 
 Basically an input for NN with $$n$$ input neurons is a matrix if dimension $$n \times 1$$.
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/input_matrix.png" alt="input matrix"> 
+
+
+### Weights, Bias and Activation functions
+
+
+
+
+### Feedforward process
+Forward propagation is a process of feeding input values to the neural network and getting an output which we call predicted value. When we feed the input values to the neural network’s first layer, it goes without any operations. Second layer takes values from first layer and applies multiplication, addition and activation operations and passes this value to the next layer. Same process repeats for subsequent layers and finally we get an output value from the last layer.
+
+
+
+### Loss Calculation
+
+
+
+
+### Backpropagation
+
+
+
+
 
 
 
