@@ -28,6 +28,22 @@ While this was happening though, some scientists were working on generating a ma
 
 
 ## What is a Neural Network?
+
+## Architecture of a Neural Network
+### Components in architecture of a Neural Network 
+
+## Components of a Neural Network flow
+### Input Matrix
+### Weights, Bias and Activation functions
+### Feedforward process
+### Loss Calculation
+### Backpropagation
+
+
+
+
+
+## What is a Neural Network?
 **Neural Networks** are basically an attempt to make a mathematical model of the brain. Let's see the working of a single neuron, 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/biological_neuron.png" alt="biological neuron"> 
@@ -72,7 +88,7 @@ However things don't remain that simple when meanings of the words matter, examp
 
 I will be covering the concepts of NLP and how we would solve this problem, in depth, in future blogs. For now it is enough to know that we vectorize the words or sentences and number of neurons in input layer is same as the dimension of the word or sentence vectors.
 
-Basically an input for NN with $$n$$ input neurons is a matrix if dimension $$n \times 1$$.
+Basically an input for NN with $$n$$ input neurons is a matrix of dimension $$n \times 1$$.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/input_matrix.png" alt="input matrix"> 
 
