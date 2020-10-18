@@ -281,6 +281,7 @@ defaults:
       type: posts
     values:
       layout: single
+      comments: true
 #       entries_layout: grid
       author_profile: true
       read_time: true

@@ -18,7 +18,13 @@ header:
 excerpt: "Neural Network, Deep Learning"
 mathjax: "true"
 toc: true
-
+<script src="https://utteranc.es/client.js"
+        repo="aknottymathematician / aknottymathematician.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 ---
 
 Humans have been obsessed with the idea of a machine doing things for them, or at least make their life easier for them, for a very long time now. Starting right from the invention of Wheel to the invention of Computer we pushed the limits of our brain to build such amazing objects. But something changed at the invention of computer, we realised that computers are far too good in one particular aspect as compared to humans, Calculations!
