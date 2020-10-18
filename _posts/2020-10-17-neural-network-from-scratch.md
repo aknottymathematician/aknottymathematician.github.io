@@ -22,7 +22,7 @@ toc: true
 
 Humans have been obsessed with the idea of a machine doing things for them, or at least make their life easier for them, for a very long time now. Starting right from the invention of Wheel to the invention of Computer we pushed the limits of our brain to build such amazing objects. But something changed at the invention of computer, we realised that computers are far too good in one particular aspect as compared to humans, Calculations!
 
-Then the human obsession of beating the computers at their own game began. We had some truly great human minds who not only challenged but won against the computer, may it be Shakuntala Devi beating the computer in finding the 23rd root of a 50 digit number or GM Garry Kasparov beating IBM's Deep Blue in chess matche. But soon we came to realise that computers(given correct configurations) are truly unbeatable at all the things that we previously won against them. So our focus shifted towards making use of the computers' calculative capabilities to solve problems which we found difficult. 
+Then the human obsession of beating the computers at their own game began. We had some truly great human minds who not only challenged but won against the computer, may it be Shakuntala Devi beating the computer in finding the 23rd root of a 50 digit number or GM Garry Kasparov beating IBM's Deep Blue in chess match. But soon we came to realise that computers(given correct configurations) are truly unbeatable at all the things that we previously won against them. So our focus shifted towards making use of the computers' calculative capabilities to solve problems which we found difficult. 
 
 While this was happening though, some scientists were working on generating a mathematical model that would "learn". The inspiration of that coming from the most perfect object that we knew, which already learnt and developed was, a Brain. Thus combining the power of huge calculations and the mathematical models that could learn, the idea of a Neural Network(Multi Layered Perceptron) was born.
 
@@ -83,7 +83,7 @@ To save myself from the confusion I divided the whole process of a neural networ
 
 ### Input Matrix
 
-The main idea of a neaural network is to be able to solve our problems and there is no shortage of the problems that can be solved, may it be classification or regression or unsupervised learning. But here's where it gets a little tricky, all the operations that we do are mathematical in nature and we won't always get the data which is numerical, for example text data, what do we do in that case?
+The main idea of a neural network is to be able to solve our problems and there is no shortage of the problems that can be solved, may it be classification or regression or unsupervised learning. But here's where it gets a little tricky, all the operations that we do are mathematical in nature and we won't always get the data which is numerical, for example text data, what do we do in that case?
 
 Well, let's take a simple example we have to classify fruits with features as colour, taste, mass and two types of fruits(classes) Apple and Orange. Now mass is a numerical value, shouldn't be a problem when it passes through the NN. However colour and taste are text values, but there is a simple way out here, since meanings of the words red and orange are not required but only the value that they posses we can simply index them({"red":0, "orange":1}) and use those numbers as inputs for NN. Same goes for the feature taste. 
 
