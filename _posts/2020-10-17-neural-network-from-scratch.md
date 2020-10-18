@@ -1,11 +1,11 @@
 ---
 title: "Neural Network from scratch"
-permalink: /blogs/nn-from-scratch/
+permalink: /nn-from-scratch/
 date: 2020-10-17
 layout: single
 classes: wide
 comments: true
-author_profile: true
+author_profile: false
 related: true
 share: true
 read_time: true

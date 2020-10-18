@@ -30,7 +30,6 @@ logo                     : "/assets/images/AKM-Profile-pic2_16-August-2020.jpg" 
 masthead_title           : "A Knotty Mathematician" # overrides the website title displayed in the masthead, use " " for no title
 
 # breadcrumbs            : false # true, false (default)
-breadcrumbs: true
 words_per_minute         : 200
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -146,7 +145,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/aknottymathematician/"
+      url: ""
 
 
 # Reading Files
