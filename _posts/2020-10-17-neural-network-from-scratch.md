@@ -33,17 +33,15 @@ While this was happening though, some scientists were working on generating a ma
 
 
 ## What is a Neural Network?
-**Neural Networks** are basically an attempt to make a mathematical model of the brain. Let's see the working of a single neuron, 
+**Neural Networks** are basically an attempt to make a mathematical model of the brain. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/biological_neuron.png" alt="biological neuron"> 
 
-
-
-But even though idea of a biological neuron being an inspiration is pretty interesting, I find it much easier to see a neuron as mathematical function that maps given input with a desired output:
-
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> 
 
-As you can see the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. We call this "single layered" structure a Perceptron. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
+You can see the similarities between the biological artifial structures. The idea of a biological neuron being an inspiration is pretty interesting, but I find it much easier to see a neuron as mathematical function that maps given input with a desired output:
+
+Let's see the working of a single neuron, the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. We call this "single layered" structure a Perceptron. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
 
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
