@@ -6,6 +6,11 @@
    Default button
    ========================================================================== */
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .btn {
   /* default */
   display: inline-block;
