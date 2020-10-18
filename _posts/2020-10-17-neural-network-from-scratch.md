@@ -2,7 +2,14 @@
 title: "Neural Network from scratch"
 permalink: /nn-from-scratch/
 date: 2020-10-17
-layout: splash
+layout: single
+classes: wide
+sidebar:
+	- title: "What is a Neural Network?"
+	- title: "Architecture of a Neural Network"
+	  children:
+	  	- title: "Components in architecture of a Neural Network"
+	  	- title: "Workflow of a neural network"
 comments: true
 author_profile: false
 related: true
