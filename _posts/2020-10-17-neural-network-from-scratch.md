@@ -4,7 +4,7 @@ permalink: /nn-from-scratch/
 date: 2020-10-17
 layout: single
 classes: wide
-sidebar:
+docs:
 	- title: "What is a Neural Network?"
 	- title: "Architecture of a Neural Network"
 	  children:
