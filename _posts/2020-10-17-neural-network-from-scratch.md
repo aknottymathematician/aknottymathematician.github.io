@@ -35,15 +35,19 @@ While this was happening though, some scientists were working on generating a ma
 ## What is a Neural Network?
 **Neural Networks** are basically an attempt to make a mathematical model of the brain. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/biological_neuron.png" alt="biological neuron"> A Biological neuron
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/biological_neuron.png" alt="biological neuron">   A Biological neuron
 
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> A Perceptron
 
-You can see the similarities between the biological and artifial structures. The idea of a one of our brain's component being an inspiration is pretty interesting, but I find it much easier to see a neuron as mathematical function that maps given input with a desired output:
+You can see the similarities between the biological and artificial structures. The idea of a one of our brain's component being an inspiration is pretty interesting, but I find it much easier to see a neuron as mathematical function that maps given input with a desired output:
 
-Let's see the working of a single neuron, the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights $$w_1$$, $$w_2$$, $$w_3$$, are passed into some function $$\sigma$$ and value of output is $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. We call this "single layered" structure a Perceptron. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
+Let's see the working of a single neuron, the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights $$w_1$$, $$w_2$$, $$w_3$$, are passed into some function $$\sigma$$ and value of output is 
+
+$$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. 
+
+We call this "single layered" structure a Perceptron. But I must admit here that I have grossly oversimplified this whole process of neural network flow and even though the basic idea remains the same, there are multiple components and steps involved in the working of a neural network.
 
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
@@ -98,7 +102,9 @@ I will be covering the concepts of NLP and how we would solve this problem, in d
 
 - **Weights** decide the importance of the input coming into a neuron. Weights are initialised randomly in the beginning, later however they will be automatically calculated based on the input and the output shapes. The weights are matrices which transform the input shape into the output shape by some mathematical operation([Matrix Multiplication in terms of Linear Algebra](https://www.youtube.com/watch?v=XkY2DOUCWMU)).
 
-- **Bias** is a non-zero number defined by us and it acts the same way as $$c$$ in the representing a line $$y = m\timesx + c$$. Basically making sure that even if input into a neuron has value zero, 
+- **Bias** is a non-zero number defined by us and it acts the same way as $$c$$ in the representing a line $$y = m\times x + c$$. Consider function $$f(x) = max(0,x)$$ applied on the inputs $$x_1$$ and $$x_2$$ then if both $$x_1 = 0$$ and $$x_2 = 0$$ $$y = \f(x_1 \times w_1 + x_2 \times w_2)$$, will give us the output zero and for all of further process the values will keep getting multiplied by $$0$$. To avoid this catastrophe we add a small non-zero value to the linear combination of weighted inputs.
+
+- **Activation Functions** determines the output of each element (perceptron or neuron) in the neural network. Each neuron’s output is the input of the neurons in the next layer of the network, so the inputs pass through multiple activation functions until the output layer gives a prediction. Neural networks rely on nonlinearity of activation functions, since real world problems are rarely linear!
 
 
 
@@ -109,7 +115,7 @@ Forward propagation is a process of feeding input values to the neural network a
 
 ### Loss Calculation
 
-
+To calculate the gap between predicted value and actual value, we use **Loss Function**. So essentially, it calculates the error value. When used on the entire training set, we use **Cost Function** which is the average of loss functions of the entire training set.
 
 
 ### Backpropagation
