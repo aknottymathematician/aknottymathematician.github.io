@@ -5,6 +5,7 @@ date: 2020-10-17
 layout: single
 classes: wide
 comments: true
+author_profile: false
 related: true
 share: true
 read_time: true
