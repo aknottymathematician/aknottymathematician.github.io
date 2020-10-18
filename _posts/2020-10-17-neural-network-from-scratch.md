@@ -4,7 +4,12 @@ permalink: /nn-from-scratch/
 date: 2020-10-17
 layout: single
 classes: wide
-comments: true 
+comments: true
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
 author_profile: true
 related: true
 share: true
