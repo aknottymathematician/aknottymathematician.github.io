@@ -1,4 +1,5 @@
 ---
+title: "Blog Posts"
 layout: collection
 permalink: /blogs/
 author_profile: true

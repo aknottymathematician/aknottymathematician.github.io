@@ -1,8 +1,10 @@
 ---
+
 title: "Neural Network from scratch"
 permalink: /nn-from-scratch/
 date: 2020-10-19
-layout: single
+layout: collection
+collection: blogs
 classes: wide
 comments: true
 author_profile: false
