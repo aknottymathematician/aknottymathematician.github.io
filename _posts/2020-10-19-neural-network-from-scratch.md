@@ -1,7 +1,7 @@
 ---
 title: "Neural Network from scratch"
 permalink: /nn-from-scratch/
-date: 2020-10-17
+date: 2020-10-19
 layout: single
 classes: wide
 comments: true
@@ -71,7 +71,6 @@ In the above architecture, there are four layers -
 
 Theoretically there is no restriction on the number of neurons in each layer or the number of layers, but in practice there is an upper limit to these numbers. What is this limit depends on the processing power of the system, latency limit and of course the cost of the financial cost of the system that would perform such calculations.
 
-[TOP](#){: .btn .btn--danger}
 
 ### Workflow of a neural network
 
