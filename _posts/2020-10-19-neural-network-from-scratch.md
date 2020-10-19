@@ -137,7 +137,7 @@ For nearly each of these components of a Neural Network there are variants, but 
 
 ## References 
 
-- [Deep Learning Book(https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
+- [Deep Learning Book](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 
 - Deep Learning [Resources](https://sebastianraschka.com/resources.html) on [Sebastian Raschka](https://sebastianraschka.com/)'s website
 
