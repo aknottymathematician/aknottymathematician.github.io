@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: tags
 permalink: /blogs/
 author_profile: true
 header:

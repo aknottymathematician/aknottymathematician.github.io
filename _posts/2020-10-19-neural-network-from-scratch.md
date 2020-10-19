@@ -105,7 +105,7 @@ I will be covering the concepts of NLP and how we would solve this problem, in d
 
 - **Bias** is a non-zero number defined by us and it acts the same way as $$c$$ in the representing a line $$y = m\times x + c$$. Consider function $$f(x) = max(0,x)$$ applied on the inputs $$x_1$$ and $$x_2$$ then if both $$x_1 = 0$$ and $$x_2 = 0$$ the function $$f(x_1 \times w_1 + x_2 \times w_2)$$, will give us the output zero and for all of further process the values will keep getting multiplied by $$0$$. To avoid this catastrophe we add a small non-zero value to the linear combination of weighted inputs.
 
-- **Activation Functions** determines the output of each element (perceptron or neuron) in the neural network. Each neuron’s output is the input of the neurons in the next layer of the network, so the inputs pass through multiple activation functions until the output layer gives a prediction. Neural networks rely on nonlinearity of activation functions, since real world problems are rarely linear!
+- **Activation Functions** determines the output of each element (perceptron or neuron) in the neural network. Each neuron’s output is the input of the neurons in the next layer of the network, so the inputs pass through multiple activation functions until the output layer gives a prediction. There are various types of activation functions like ReLU(Rectified Linear Unit), Sigmoid, Softplus etc. which I will cover in future blogs. Neural networks rely on nonlinearity of activation functions, since real world problems are rarely linear!
 
 
 
@@ -116,7 +116,7 @@ Forward propagation is a process of feeding input values to the neural network a
 
 ### Loss Calculation
 
-To calculate the gap between predicted value and actual value, we use **Loss Function**. So essentially, it calculates the error value. When used on the entire training set, we use **Cost Function** which is the average of loss functions of the entire training set.
+To calculate the gap between predicted value and actual value, we use **Loss Function**. So essentially, it calculates the error value. When used on the entire training set, we use **Cost Function** which is the average of loss functions of the entire training set. There are multiple variants of loss functions which can be used, MSE(Mean Square Error), RMSE(Root Mean Square Error), LogLoss etc. 
 
 
 ### Backpropagation
@@ -125,3 +125,4 @@ To calculate the gap between predicted value and actual value, we use **Loss Fun
 
 [TOP](#){: .btn .btn--danger}
 
+For nearly each of these components of a Neural Network there are variants but to avoid confusion and making this post too long I intend to write on these separately. This was **Part I** of the Neural Network from Scratch series, in **Part II** we will go through the flow of NN using a real example and see how dimensions of matrices involved play a vital role. We will also see how to write all the above mentioned components using only python and then using Tensorflow library.
