@@ -14,7 +14,7 @@ tags:
     - Deep Learning
 
 header:
-  image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
+  image: "/assets/images/NN_blog-post-banner_19-October-2020.png.jpg"
   teaser: "/assets/images/KM_blog-teaser-banner-1_16-August-2020.jpg"
 excerpt: "Basics of Neural Networks"
 mathjax: true

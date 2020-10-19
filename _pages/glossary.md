@@ -17,7 +17,7 @@ header:
 
 ## Step Function
 
-Equation for Rectified Linear Unit(ReLU) activation function
+Equation for Step Function
 $$  f(x) =
 \begin{cases}
 0,  & x \lt 0 \\
