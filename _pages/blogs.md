@@ -1,6 +1,5 @@
 ---
-title: "Blog Posts"
-layout: collection
+layout: categories
 permalink: /blogs/
 author_profile: true
 header:
