@@ -7,7 +7,7 @@ author_profile: true
 taxonomy: glossary
 entries_layout: list
 header:
-  image: "/assets/images/KM_glossary_19-October-2020.jpg"
+  image: "/assets/images/KM_glossary_19-October-2020.png"
   
 ---
 
