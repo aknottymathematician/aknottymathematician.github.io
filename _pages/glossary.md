@@ -7,6 +7,7 @@ permalink: /glossary/
 author_profile: true
 taxonomy: glossary
 entries_layout: list
+mathjax: true
 header:
   image: "/assets/images/KM_glossary_19-October-2020.png"
   

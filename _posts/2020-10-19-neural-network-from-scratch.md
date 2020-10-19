@@ -44,7 +44,7 @@ While this was happening though, some scientists were working on generating a ma
 
 You can see the similarities between the biological and artificial structures. The fact that one of our brain's components is an inspiration is pretty interesting, but I find it much easier to see a perceptron as a mathematical function that maps given input with a desired output
 
-Let us see the working of a single neuron, the input values $x_1$, $x_2$, $x_3$, multiplied by some weights $w_1$, $w_2$, $w_3$, are passed into some function $\sigma$ and value of output is 
+Let us see the working of a single neuron, the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights $$w_1$$, $$w_2$$, $$w_3$$, are passed into some function $$\sigma$$ and value of output is 
 
 $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. 
 
@@ -103,7 +103,7 @@ I will be covering the concepts of NLP and how we would solve this problem, in d
 
 - **Weights** decide the importance of the input coming into a neuron. Weights are initialised randomly in the beginning, later however they will be automatically calculated based on the input and the output shapes. The weights are matrices which transform the input shape into the output shape by some mathematical operation([Matrix Multiplication in terms of Linear Algebra](https://www.youtube.com/watch?v=XkY2DOUCWMU)).
 
-- **Bias** is a non-zero number defined by us and it acts the same way as $c$ in the representing a line $y = m\times x + c$. Consider function $f(x) = max(0,x)$ applied on the inputs $x_1$ and $x_2$ then if both $x_1 = 0$ and $x_2 = 0$, the function $f(x_1 \times w_1 + x_2 \times w_2)$, will give us the output zero and for all of further process the values will keep getting multiplied by $0$. To avoid this catastrophe we add a small non-zero value to the linear combination of weighted inputs.
+- **Bias** is a non-zero number defined by us and it acts the same way as $$c$$ in the representing a line $$y = m\times x + c$$. Consider function $$f(x) = max(0,x)$$ applied on the inputs $$x_1$$ and $$x_2$$ then if both $$x_1 = 0$$ and $$x_2 = 0$$ the function $$f(x_1 \times w_1 + x_2 \times w_2)$$, will give us the output zero and for all of further process the values will keep getting multiplied by $$0$$. To avoid this catastrophe we add a small non-zero value to the linear combination of weighted inputs.
 
 - **Activation Functions** determines the output of each element (perceptron or neuron) in the neural network. Each neuron’s output is the input of the neurons in the next layer of the network, so the inputs pass through multiple activation functions until the output layer gives a prediction. There are various types of activation functions like ReLU(Rectified Linear Unit), Sigmoid, Softplus etc. which I will cover in future blogs. Neural networks rely on nonlinearity of activation functions, since real world problems are rarely linear!
 
