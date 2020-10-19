@@ -1,4 +1,5 @@
 ---
+title: "An ever expanding collection of ML & DL terminologies"
 layout: single
 classes: wide
 toc: true
