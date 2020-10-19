@@ -41,9 +41,9 @@ While this was happening though, some scientists were working on generating a ma
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/artificial_neuron.png" alt="artificial neuron"> A Perceptron
 
-You can see the similarities between the biological and artificial structures. The fact that one of our brain's components is an inspiration is pretty interesting, but I find it much easier to see a perceptron as a mathematical function that maps given input with a desired output
+You can see the similarities between the biological and artificial structures. The idea of a one of our brain's component being an inspiration is pretty interesting, but I find it much easier to see a neuron as mathematical function that maps given input with a desired output:
 
-Let us see the working of a single neuron, the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights $$w_1$$, $$w_2$$, $$w_3$$, are passed into some function $$\sigma$$ and value of output is 
+Let's see the working of a single neuron, the input values $$x_1$$, $$x_2$$, $$x_3$$, multiplied by some weights $$w_1$$, $$w_2$$, $$w_3$$, are passed into some function $$\sigma$$ and value of output is 
 
 $$y = \sigma(x_1 \times w_1 + x_2 \times w_2 + x_3 \times w_3)$$. 
 
@@ -51,7 +51,6 @@ We call this "single layered" structure a Perceptron. But I must admit here that
 
 So without further adieu let us dive into the basics of Neural Network Architecture.
 
-[TOP](#){: .btn .btn--danger}
 
 ## Architecture of a Neural Network
 Let's start small, as we saw in the above diagram, there's an "input layer", a "function layer" and a "output layer", with funtion layer and output layer containing only single neuron. This structure is called a perceptron. If we were to extrapolate this idea and increase the number of neurons in each layer and the number of "function" layers we get a MLP(Multi Layered Perceptron), the structure would look something like this:
@@ -77,7 +76,7 @@ Theoretically there is no restriction on the number of neurons in each layer or 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/flow_of_nn.png" alt="Flow of NN"> 
 
-[TOP](#){: .btn .btn--danger}
+
 
 ## Components of a Neural Network flow
 
@@ -123,5 +122,5 @@ To calculate the gap between predicted value and actual value, we use **Loss Fun
 
 
 
-[TOP](#){: .btn .btn--danger}
+
 
