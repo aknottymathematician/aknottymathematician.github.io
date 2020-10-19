@@ -13,9 +13,9 @@ header:
   
 ---
 
-# Activation Functions
+## Activation Functions
 
-## Step Function
+### Step Function
 
 Equation for Step Function
 $$  f(x) =
@@ -27,7 +27,7 @@ $$  f(x) =
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/step_function.png" alt="step function">
 
 
-## ReLU
+### ReLU
 
 Equation for Rectified Linear Unit(ReLU) activation function
 $$  f(x) =
@@ -39,28 +39,28 @@ x, & x \geq 0
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ReLU.png" alt="ReLU">
 
 
-## Sigmoid
+### Sigmoid
 
-## Tanh
+### Tanh
 
-## Leaky ReLU
-
-
-# Components of NN
-
-## Activation Function
-
-## Bias
-
-## Neurons
-
-## Weights
+### Leaky ReLU
 
 
-# Loss Functions
+## Components of NN
 
-## MSE(Mean Squared Error)
+### Activation Function
 
-## RMSE(Root Mean Squared Error)
+### Bias
 
-## Log Loss
+### Neurons
+
+### Weights
+
+
+## Loss Functions
+
+### MSE(Mean Squared Error)
+
+### RMSE(Root Mean Squared Error)
+
+### Log Loss
