@@ -6,6 +6,7 @@ header:
 
 ---
 
-I am an Artificial Intelligence engineer at emotix, working in NLP area. Even though working in AI and coding, and loving it, my first love is math.
+I am an AI Engineer at Miko, working in Natural Language Processing. I have completed my MSc in Mathematics from VNIT, Nagpur. I am a learner and the blog posts I share are essentially the notes I take while studying, so if you find any mistakes in theoretical sections or errors in the codes please drop in a mail, I'll make sure that I correct those as required. 
+
 
 ---
