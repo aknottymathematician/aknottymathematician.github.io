@@ -16,10 +16,10 @@ header:
 
 ## ReLU
   f(n) =
-\begin{cases}
+$$\begin{cases}
 n/2,  & \text{if $n$ is even} \\
 3n+1, & \text{if $n$ is odd}
-\end{cases}
+\end{cases}$$
 
 ## Sigmoid
 
