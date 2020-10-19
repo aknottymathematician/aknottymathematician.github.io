@@ -11,7 +11,7 @@ related: true
 share: true
 read_time: true
 tags:
-    - blog
+    - Deep Learning
 
 header:
   image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
@@ -116,7 +116,7 @@ Forward propagation is a process of feeding input values to the neural network a
 
 ### Loss Calculation
 
-To calculate the gap between predicted value and actual value, we use **Loss Function**. So essentially, it calculates the error value. When used on the entire training set, we use **Cost Function** which is the average of loss functions of the entire training set. There are multiple variants of loss functions which can be used, MSE(Mean Square Error), RMSE(Root Mean Square Error), LogLoss etc. 
+To calculate the gap between predicted value and actual value, we use **Loss Function**. So essentially, it calculates the error value. When used on the entire training set, we use **Cost Function** which is the average of loss functions of the entire training set. There are multiple variants of loss functions which can be used, MSE(Mean Squared Error), RMSE(Root Mean Squared Error), Log Loss etc. 
 
 
 ### Backpropagation
@@ -125,4 +125,13 @@ To calculate the gap between predicted value and actual value, we use **Loss Fun
 
 [TOP](#){: .btn .btn--danger}
 
-For nearly each of these components of a Neural Network there are variants but to avoid confusion and making this post too long I intend to write on these separately. This was **Part I** of the Neural Network from Scratch series, in **Part II** we will go through the flow of NN using a real example and see how dimensions of matrices involved play a vital role. We will also see how to write all the above mentioned components using only python and then using Tensorflow library.
+For nearly each of these components of a Neural Network there are variants, but to avoid creating confusion and making this post too long I have made a glossary of terminologies and their basic definitions which I will keep updating with every blog post. This was **Part I** of the Neural Network from Scratch series, in **Part II** we will go through the flow of NN using a real example and see how dimensions of matrices involved play a vital role. We will also see how to write all the above mentioned components using only python and then using Tensorflow library.
+
+
+**References -**
+
+- [Deep Learning Book(https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
+
+- Deep Learning [Resources](https://sebastianraschka.com/resources.html) on [Sebastian Raschka](https://sebastianraschka.com/)'s website
+
+- Hackernoon's this amazing [blog post](https://hackernoon.com/everything-you-need-to-know-about-neural-networks-8988c3ee4491).

@@ -2,15 +2,13 @@
 main:
 #   - title: "Home"
 #     url: https://aknottymathematician.github.io/
-  - title: "About Me"
-    url: https://aknottymathematician.github.io/about/
   - title: "Blog Posts"
     url: https://aknottymathematician.github.io/blogs/
-  - title: "Coding Problems"
-    url: https://aknottymathematician.github.io/coding/
+  - title: "ML & DL Glossary"
+    url: https://aknottymathematician.github.io/Glossary/
+  - title: "About Me"
+    url: https://aknottymathematician.github.io/about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-sidebar:
-  nav: "docs"
