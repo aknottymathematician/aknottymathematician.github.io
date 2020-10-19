@@ -17,7 +17,7 @@ header:
   image: "/assets/images/blog-head-neural-network_16-August-2020.jpg"
   teaser: "/assets/images/KM_blog-teaser-banner-1_16-August-2020.jpg"
 excerpt: "Basics of Neural Networks"
-mathjax: "true"
+mathjax: true
 toc: true
 
 ---
@@ -121,17 +121,28 @@ To calculate the gap between predicted value and actual value, we use **Loss Fun
 
 ### Backpropagation
 
+So far we have seen how we move through the neural network in the forward direction(left to right). Here after getting the output we find the error using a loss function. Now the question is how to reduce this error? 
+
+We do not have control over the input data that comes to us, but what determines the value of output is the weight we give to each value. So, if we were to find a way to change these weights so that the error reduces, our job will be done.
+Now, since this error is represented in the form a function, there's a very nice mathematical way to find the minimum value this function can attain. That is finding local minima of the function i.e. given a function $$f$$ finding the value of $$x$$ for which $$f'(x) = 0$$ or in more geometric terms finding value of $$x$$ for which slope of $$f(x)$$ is zero.
+
+We call these derivatives, gradients and use these gradient values to calculate the gradients of the second last layer. We repeat this process until we get gradients for each and every weight in our neural network. Then we subtract this gradient value from the weight value to reduce the error value. In this way we move closer down to the Local Minima.
 
 
 [TOP](#){: .btn .btn--danger}
 
+## Conclusion
 For nearly each of these components of a Neural Network there are variants, but to avoid creating confusion and making this post too long I have made a glossary of terminologies and their basic definitions which I will keep updating with every blog post. This was **Part I** of the Neural Network from Scratch series, in **Part II** we will go through the flow of NN using a real example and see how dimensions of matrices involved play a vital role. We will also see how to write all the above mentioned components using only python and then using Tensorflow library.
 
 
-**References -**
+## References 
 
 - [Deep Learning Book(https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 
 - Deep Learning [Resources](https://sebastianraschka.com/resources.html) on [Sebastian Raschka](https://sebastianraschka.com/)'s website
 
-- Hackernoon's this amazing [blog post](https://hackernoon.com/everything-you-need-to-know-about-neural-networks-8988c3ee4491).
+- Hackernoon's this amazing [blog post](https://hackernoon.com/everything-you-need-to-know-about-neural-networks-8988c3ee4491)
+
+- [Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) series by Grant Sanderson
+
+[TOP](#){: .btn .btn--danger}

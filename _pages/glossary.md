@@ -16,26 +16,14 @@ header:
 # Activation Functions
 
 ## ReLU
- $$f(n) = \begin{cases}
-n/2,  & \text{if $n$ is even} \\
-3n+1, & \text{if $n$ is odd}
+
+$$  f(n) =
+\begin{cases}
+0,  & x \lt 0 \\
+x, & x \geq 0 
 \end{cases}$$
 
-
-$$
-f\left(
-   \left[ 
-     \frac{
-       1+\left\{x,y\right\}
-     }{
-       \left(
-          \frac{x}{y}+\frac{y}{x}
-       \right)
-       \left(u+1\right)
-     }+a
-   \right]^{3/2}
-\right)
-$$
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ReLU.png" alt="ReLU">
 
 ## Sigmoid
 
