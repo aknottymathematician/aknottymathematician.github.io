@@ -15,15 +15,29 @@ header:
 
 # Activation Functions
 
+## Step Function
+
+Equation for Rectified Linear Unit(ReLU) activation function
+$$  f(x) =
+\begin{cases}
+0,  & x \lt 0 \\
+1, & x \geq 0 
+\end{cases}$$
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/step_function.png" alt="step function">
+
+
 ## ReLU
 
-$$  f(n) =
+Equation for Rectified Linear Unit(ReLU) activation function
+$$  f(x) =
 \begin{cases}
 0,  & x \lt 0 \\
 x, & x \geq 0 
 \end{cases}$$
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ReLU.png" alt="ReLU">
+
 
 ## Sigmoid
 

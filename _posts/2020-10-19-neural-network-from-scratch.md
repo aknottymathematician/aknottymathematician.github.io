@@ -1,6 +1,6 @@
 ---
 
-title: "Neural Network from scratch"
+title: "Neural Network from scratch - Part I"
 permalink: /nn-from-scratch/
 date: 2020-10-19
 layout: single
