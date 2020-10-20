@@ -18,12 +18,11 @@ header:
 ### Step Function
 
 Equation for Step Function
-$$  f(x) =
+$$ f(x) =
 \begin{cases}
 0,  & x \lt 0 \\
 1, & x \geq 0 
-\end{cases}$$
-
+\end{cases} $$
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/step_function.png" alt="step function">
 
 
@@ -34,25 +33,36 @@ $$  f(x) =
 \begin{cases}
 0,  & x \lt 0 \\
 x, & x \geq 0 
-\end{cases}$$
-
+\end{cases} $$
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ReLU.png" alt="ReLU">
 
 
 ### Sigmoid
 
 Equation for Sigmoid
-$$ f(x) =  \frac{\mathrm{1} }{\mathrm{1} + e^-x }  $$ 
+$$ f(x) =  \frac{\mathrm{1} }{\mathrm{1} + e^(-x) }  $$ 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sigmoid.png" alt="Sigmoid">
 
 ### Tanh
 
+Equation for Tanh
+$$ f(x) =  \frac{e^(x) - e^(-x)}{e^(x) + e^(-x)}  $$ 
+
+
 ### Leaky ReLU
 
+Equation for Rectified Linear Unit(ReLU) activation function
+$$  f(x) =
+\begin{cases}
+0.01x,  & x \lt 0 \\
+x, & x \geq 0 
+\end{cases} $$
 
 ## Components of NN
 
 ### Activation Function
+
+Activation Functions determines the output of each element (perceptron or neuron) in the neural network. Each neuron’s output is the input of the neurons in the next layer of the network, so the inputs pass through multiple activation functions until the output layer gives a prediction.
 
 ### Bias
 
