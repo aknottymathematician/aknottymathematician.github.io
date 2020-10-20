@@ -40,13 +40,13 @@ x, & x \geq 0
 ### Sigmoid
 
 Equation for Sigmoid
-$$ f(x) =  \frac{\mathrm{1} }{\mathrm{1} + e^(-x) }  $$ 
+$$ f(x) =  \frac{\mathrm{1} }{\mathrm{1} + e^{-x} }  $$ 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sigmoid.png" alt="Sigmoid">
 
 ### Tanh
 
 Equation for Tanh
-$$ f(x) =  \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}  $$ 
+$$ f(x) =  \frac{e^{x} - e^{-x} }{e^{x} + e^{-x} }  $$ 
 
 
 ### Leaky ReLU
