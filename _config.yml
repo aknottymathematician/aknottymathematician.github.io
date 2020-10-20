@@ -21,7 +21,7 @@ title                    : "A Knotty Mathematician"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jasraj Date"
-description              : "A blend of Math and AI"
+description              : 
 url                      : "https://aknottymathematician.github.io" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "aknottymathematician/aknottymathematician.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
