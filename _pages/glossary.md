@@ -56,10 +56,16 @@ $$ f(x) =  \frac{\mathrm{1} }{\mathrm{1} + e^-x }  $$
 
 ### Bias
 
+Bias is a non-zero number defined by us and it acts the same way as $$c$$ does in the equation $$y = m\times x + c$$.
+
 ### Neurons
+
+A neuron is the most basic unit of a Neural Network. Each neuron stores information either as a real number or a mathematical operation that takes input, multiplies it by it's weights and then passes the sum through the activation function to the other neurons.
+
 
 ### Weights
 
+Weights decide the importance of the input coming into a neuron. Weights are initialised randomly in the beginning, later however they are automatically calculated based on the output.
 
 ## Loss Functions
 

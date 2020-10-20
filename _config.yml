@@ -114,7 +114,7 @@ author:
 #       url: "https://aknottymathematician.github.io"  #"https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/aknottymathema1" #"https://twitter.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jasraj-date/" #"https://facebook.com/"
@@ -123,7 +123,7 @@ author:
       url: "https://github.com/aknottymathematician"  #"https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/aknottymathematician/" #"https://instagram.com/"
+      # url: "https://www.instagram.com/aknottymathematician/" #"https://instagram.com/"
 
 # Site Footer
 footer:
