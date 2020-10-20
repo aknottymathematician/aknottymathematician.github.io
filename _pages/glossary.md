@@ -46,7 +46,7 @@ $$ f(x) =  \frac{\mathrm{1} }{\mathrm{1} + e^(-x) }  $$
 ### Tanh
 
 Equation for Tanh
-$$ f(x) =  \frac{e^(x) - e^(-x)}{e^(x) + e^(-x)}  $$ 
+$$ f(x) =  \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}  $$ 
 
 
 ### Leaky ReLU
