@@ -1,7 +1,7 @@
 ---
 
 title: "Neural Network from scratch - Part I"
-permalink: /nn-from-scratch/
+permalink: /nn-from-scratch-part1/
 date: 2020-10-19
 layout: single
 classes: wide
