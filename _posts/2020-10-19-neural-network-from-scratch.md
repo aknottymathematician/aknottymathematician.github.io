@@ -133,7 +133,7 @@ We call these derivatives, gradients and use these gradient values to calculate 
 For nearly each of these components of a Neural Network there are variants, but to avoid creating confusion and making this post too long I have made a glossary of terminologies and their basic definitions which I will keep updating with every blog post. This was **Part I** of the Neural Network from Scratch series, in **Part II** we will go through the flow of NN using a real example and see how dimensions of matrices involved play a vital role. We will also see how to write all the above mentioned components using only python and then using Tensorflow library.
 
 ## Getting your shapes right!
-As we saw previously the whole workflow of a NN start with the input layer. This input layer has certain number of neurons and that number is decided based on the dimension of the vector that will be taken as an input.
+As we saw previously, the whole workflow of a NN starts with the input layer. This input layer has certain number of neurons and that number is decided based on the dimension of the vector that will be taken as an input.
 
 Let us check out an example here, say, we start a new restaurant and we want to survey if people will return to our restaurant. Now the metric of measuring is simple, a person will come back or they won't, so either 1 or 0. The parameters on which we are measuring performance of the restaurant are service quality, ambience and food quality.
 
@@ -165,14 +165,18 @@ $$\begin{bmatrix}7 & 8 & 7\\5 & 9 & 4\\8 & 6 & 9\\2 & 4 & 9\end{bmatrix} \times 
 
 **Layer 2 - Hidden layer**
 
-The output matrix of the above calculation comes out as $$\begin{bmatrix}0.1 $ 6.9 & -6.4 & 3.9\\ 2.8 & 5.5 & -4.7 & 3.5\\-2.4 & 7.5 & -7.1 & 3.9\\-4 & 8.1 & -8.1 & 1.3\end{bmatrix}$$
+The output matrix of the above calculation comes out as $$\begin{bmatrix}0.1 & 6.9 & -6.4 & 3.9\\ 2.8 & 5.5 & -4.7 & 3.5\\-2.4 & 7.5 & -7.1 & 3.9\\-4 & 8.1 & -8.1 & 1.3\end{bmatrix}$$
 
-which goes into the hidden layer as the input, where sigmoid(can be any other too) activation function acts on the matrix to give the output $$ A = \begin{bmatrix}0.525 & 0.999 & 0.002 & 0.98 \\0.943 & 0.996 & 0.009 & 0.971\\0.083 & 0.999 & 0.001 & 0.98 \\0.018 & 1 & 0 & 0.786\end{bmatrix}$$
+which goes into the hidden layer as the input, where sigmoid(can be any other too) activation function acts on the matrix to give the output
 
-So the output coming from the hidden layer is the matrix $$A$$ whose shape is $$(4,4)$$. Now the weights matrix layer will have shape (4, 2), $$\begin{bmatrix}0.6 & 0.8\\0.8 & 0.4\\0.1 & 0.6\\0.1 & 0.4\end{bmatrix}$$
+$$ A = \begin{bmatrix}0.525 & 0.999 & 0.002 & 0.98 \\0.943 & 0.996 & 0.009 & 0.971\\0.083 & 0.999 & 0.001 & 0.98 \\0.018 & 1 & 0 & 0.786\end{bmatrix}$$
+
+So the output coming from the hidden layer is the matrix $$A$$ whose shape is $$(4,4)$$. Now the weights matrix layer will have shape (4, 2), 
+
+$$\begin{bmatrix}0.6 & 0.8\\0.8 & 0.4\\0.1 & 0.6\\0.1 & 0.4\end{bmatrix}$$
 
 
-with bias as $$\begin{bmatrix}1 & 1\end{bmatrix$$
+with bias as $$\begin{bmatrix}1 & 1\end{bmatrix}$$
 
 ## References 
 
