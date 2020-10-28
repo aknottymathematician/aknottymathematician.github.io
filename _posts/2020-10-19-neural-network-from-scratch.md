@@ -132,13 +132,16 @@ We call these derivatives, gradients and use these gradient values to calculate 
 ## Conclusion
 For nearly each of these components of a Neural Network there are variants, but to avoid creating confusion and making this post too long I have made a glossary of terminologies and their basic definitions which I will keep updating with every blog post. This was **Part I** of the Neural Network from Scratch series, in **Part II** we will go through the flow of NN using a real example and see how dimensions of matrices involved play a vital role. We will also see how to write all the above mentioned components using only python and then using Tensorflow library.
 
-|       	Input Parameters     		    ||   			 Output 	      ||
+||       	Input Parameters     		    ||   			 Output 	      ||
 |										     | 								   |
 | Service Quality | Ambience | Food Quality  |  Will the custormer come back?  |
 | :----------------------------------------: | :-----------------------------: |
 | 		6  		  | 	8    | 		7 		 | 					1			   |
 | :----------------------------------------: | :-----------------------------: |
 | 		5  		  | 	9    | 		4 		 | 					0			   |
+
+
+Sample Table
 
 |              | Header 1        | Header 2                       || Header 3                       ||
 |              | Subheader 1     | Subheader 2.1  | Subheader 2.2  | Subheader 3.1  | Subheader 3.2  |
