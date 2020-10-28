@@ -132,7 +132,31 @@ We call these derivatives, gradients and use these gradient values to calculate 
 ## Conclusion
 For nearly each of these components of a Neural Network there are variants, but to avoid creating confusion and making this post too long I have made a glossary of terminologies and their basic definitions which I will keep updating with every blog post. This was **Part I** of the Neural Network from Scratch series, in **Part II** we will go through the flow of NN using a real example and see how dimensions of matrices involved play a vital role. We will also see how to write all the above mentioned components using only python and then using Tensorflow library.
 
-$$\begin{bmatrix}7 & 8 & 7\\5 & 9 & 4\\8 & 6 & 9\\2 & 4 & 9\end{bmatrix}$$
+## Getting your shapes right!
+As we saw previously the whole workflow of a NN start with the input layer. This input layer has certain number of neurons and that number is decided based on the dimension of the vector that will be taken as an input.
+
+Let us check out an example here, say, we start a new restaurant and we want to survey if people will return to our restaurant. Now the metric of measuring is simple, a person will come back or they won't, so either 1 or 0. The parameters on which we are measuring performance of the restaurant are service quality, ambience and food quality.
+
+||       	Input Parameters     		    ||   			 Output 	      ||
+|										     | 								   |
+| Service Quality | Ambience | Food Quality  |  Will the custormer come back?  |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		7  		  | 	8    | 		7 		 | 					1			   |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		5  		  | 	9    | 		4 		 | 					0			   |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		8  		  | 	6    | 		9 		 | 					1			   |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		2  		  | 	4    | 		9 		 | 					0			   |
+
+Now here we have four users and each user has given various ratings for every parameter and then finally stated if they will come back to our restaurant. So we have in our hands a binary classification problem, where output is either 1 or 0 and we want to train a model which will tell us what is the chance of people returning to our restaurant given how they rated our parameters. We will have a single hidden layered NN, i.e. **input --> hidden layer --> output**.
+
+Layer 1 - Inputs
+We have four users with three parameters so our input matric will look like - $$\begin{bmatrix}7 & 8 & 7\\5 & 9 & 4\\8 & 6 & 9\\2 & 4 & 9\end{bmatrix}$$
+
+which is a matrix of shape $$(4,3)$$ i.e. *4 users x 3 paramters*. Now by the rules of matrix multiplication the weight matrix which is to be multiplied to input matrix will need to have shape $$(3, n)$$ where $$n$$ is the number of neurons in the next layer, which in our case is $$4$$. So the weights matrix has the shape $$(3,4)$$ and bias matrix has the shape $$(1,4)$$. The calulation of the input layer moving forward into the hidden layer will look like - 
+
+$$\begin{bmatrix}7 & 8 & 7\\5 & 9 & 4\\8 & 6 & 9\\2 & 4 & 9\end{bmatrix} \times \begin{bmatrix}0.1 & 0.2 & 0.3 & 0.4\\0.5 & 0.9 & -0.4 & 0.1\\0.8 & 0.7 & -0.9 & -0.1\\-0.2 & 0.4 & 0.1 & -0.7\end{bmatrix} + \begin{bmatrix}1 & 1 & 1 & 1\end{bmatrix}$$
 
 ## References 
 
