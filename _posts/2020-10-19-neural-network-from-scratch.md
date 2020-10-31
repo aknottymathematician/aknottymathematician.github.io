@@ -135,18 +135,14 @@ For nearly each of these components of a Neural Network there are variants, but 
 
 ## collapsible markdown?
 
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
+<details>
+<summary>How do I dropdown?</summary>
+<br>
 ```python
 	import numpy as np
-	print("hello world!")
-
+	print("Hello World!")
 ```
 
-</p>
 </details>
 
 
