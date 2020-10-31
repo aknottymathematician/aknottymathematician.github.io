@@ -141,6 +141,7 @@ For nearly each of these components of a Neural Network there are variants, but 
 #### yes, even hidden code blocks!
 
 ```python
+	import numpy as np
 	print("hello world!")
 
 ```
