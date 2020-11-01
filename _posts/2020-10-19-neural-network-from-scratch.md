@@ -149,13 +149,3 @@ For nearly each of these components of a Neural Network there are variants, but 
 [TOP](#){: .btn .btn--danger}
 
 
-**Layer 3 - Output Layer**
-
-So, output of the hidden layer multiplied by weights plus the bias gives us the final output. That is,
-
-$$ Output = \sigma\left(\begin{bmatrix}0.525 & 0.999 & 0.002 & 0.98 \\0.943 & 0.996 & 0.009 & 0.971\\0.083 & 0.999 & 0.001 & 0.98 \\0.018 & 1 & 0 & 0.786\end{bmatrix} \times \begin{bmatrix}0.6 & 0.8\\0.8 & 0.4\\0.1 & 0.6\\0.1 & 0.4\end{bmatrix} + \begin{bmatrix}1 & 1\end{bmatrix}\right)$$
-
-which gives us,
-$$Output = \begin{bmatrix}0.901 & 0.921 & 0.875 & 0.869\end{bmatrix}$$
-
-We "compare" these with the given output and calculate the error.
