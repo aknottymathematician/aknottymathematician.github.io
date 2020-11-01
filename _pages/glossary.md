@@ -13,7 +13,7 @@ header:
 ---
 
 
-<details>
+<!-- <details>
 <summary>1. Activation Functions </summary>
 <br>
 [ReLU](#relu)
@@ -22,19 +22,33 @@ header:
 <br>
 [Tanh](#tanh)
 <br>
-</details>
+</details> -->
 
 <details>
 <summary>
 <i>Activation Functions </i>
 </summary>
-<a href="http://www.ironspider.ca/format_text/fontstyles.htm">
-Useful Source</a>
-<p>It's because the details block is html5. If you want to modify it your best bet is using html5. </p>
+<a href="https://aknottymathematician.github.io/glossary/#step-function">
+Step Function</a>
+<br>
+<a href="https://aknottymathematician.github.io/glossary/#relu">
+ReLU</a>
+<br>
+<a href="https://aknottymathematician.github.io/glossary/#sigmoid">
+Sigmoid</a>
+<br>
+<a href="https://aknottymathematician.github.io/glossary/#tanh">
+Tanh</a>
+<br>
+<a href="https://aknottymathematician.github.io/glossary/#leaky-relu">
+Leaky ReLU</a>
+<br>
+
+
 </details>
 
 
-1. [Example](#example)
+<!-- 1. [Example](#example)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
@@ -43,7 +57,7 @@ Useful Source</a>
 ## Example
 ## Example2
 ## Third Example
-## [Fourth Example](http://www.fourthexample.com) 
+## [Fourth Example](http://www.fourthexample.com)  -->
 
 ## Activation Functions
 
