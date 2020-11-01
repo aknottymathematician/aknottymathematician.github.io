@@ -74,9 +74,9 @@ Weights</a>
 ## Third Example
 ## [Fourth Example](http://www.fourthexample.com)  -->
 
-## Activation Functions
+### Activation Functions
 
-### Step Function
+#### Step Function
 
 Equation for Step Function
 $$ f(x) =
@@ -87,7 +87,7 @@ $$ f(x) =
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/step_function.png" alt="step function">
 
 
-### ReLU
+#### ReLU
 
 Equation for Rectified Linear Unit(ReLU) activation function
 $$  f(x) =
@@ -98,19 +98,19 @@ x, & x \geq 0
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ReLU.png" alt="ReLU">
 
 
-### Sigmoid
+#### Sigmoid
 
 Equation for Sigmoid
 $$ f(x) =  \frac{\mathrm{1} }{\mathrm{1} + e^{-x} }  $$ 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sigmoid.png" alt="Sigmoid">
 
-### Tanh
+#### Tanh
 
 Equation for Tanh
 $$ f(x) =  \frac{e^{x} - e^{-x} }{e^{x} + e^{-x} }  $$ 
 
 
-### Leaky ReLU
+#### Leaky ReLU
 
 Equation for Rectified Linear Unit(ReLU) activation function
 $$  f(x) =
@@ -119,29 +119,29 @@ $$  f(x) =
 x, & x \geq 0 
 \end{cases} $$
 
-## Components of NN
+### Components of NN
 
-### Activation Function
+#### Activation Function
 
 Activation Functions determines the output of each element (perceptron or neuron) in the neural network. Each neuron’s output is the input of the neurons in the next layer of the network, so the inputs pass through multiple activation functions until the output layer gives a prediction.
 
-### Bias
+#### Bias
 
 Bias is a non-zero number defined by us and it acts the same way as $$c$$ does in the equation $$y = m\times x + c$$.
 
-### Neuron
+#### Neuron
 
 A neuron is the most basic unit of a Neural Network. Each neuron stores information either as a real number or a mathematical operation that takes input, multiplies it by it's weights and then passes the sum through the activation function to the other neurons.
 
 
-### Weights
+#### Weights
 
 Weights decide the importance of the input coming into a neuron. Weights are initialised randomly in the beginning, later however they are automatically calculated based on the output.
 
-## Loss Functions
+### Loss Functions
 
-### MSE(Mean Squared Error)
+#### MSE(Mean Squared Error)
 
-### RMSE(Root Mean Squared Error)
+#### RMSE(Root Mean Squared Error)
 
-### Log Loss
+#### Log Loss
