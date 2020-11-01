@@ -79,7 +79,7 @@ Weights</a>
 ## Third Example
 ## [Fourth Example](http://www.fourthexample.com)  -->
 
-### <ins>Activation Functions<\ins>
+### <ins>Activation Functions</ins>
 
 #### 1 .Step Function
 
@@ -126,7 +126,7 @@ x, & x \geq 0
 
 ---
 
-### <ins>Components of NN<\ins>
+### <ins>Components of NN</ins>
 
 #### Activation Function
 
@@ -145,7 +145,7 @@ A neuron is the most basic unit of a Neural Network. Each neuron stores informat
 
 Weights decide the importance of the input coming into a neuron. Weights are initialised randomly in the beginning, later however they are automatically calculated based on the output.
 
-### <ins>Loss Functions<\ins>
+### <ins>Loss Functions</ins>
 
 #### MSE(Mean Squared Error)
 
