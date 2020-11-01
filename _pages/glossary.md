@@ -14,14 +14,14 @@ header:
 
 
 <details>
-<summary>1. Activation Functions</summary>
+<summary>1. Activation Functions </summary>
 <br>
-[ReLU](##relu)
+[ReLU](#relu)
 <br>
-[Sigmoid](##sigmoid)
+[Sigmoid](#sigmoid)
 <br>
-[Tanh](##tanh)
-
+[Tanh](#tanh)
+<br>
 </details>
 
 1. [Example](#example)
