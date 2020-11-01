@@ -16,11 +16,11 @@ header:
 <details>
 <summary>1. Activation Functions</summary>
 <br>
-[ReLU](#relu)
+[ReLU](##relu)
 <br>
-[Sigmoid](#sigmoid)
+[Sigmoid](##sigmoid)
 <br>
-[Tanh](#tanh)
+[Tanh](##tanh)
 
 </details>
 
