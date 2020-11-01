@@ -147,3 +147,61 @@ For nearly each of these components of a Neural Network there are variants, but 
 - [Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) series by Grant Sanderson
 
 [TOP](#){: .btn .btn--danger}
+
+
+In the first part of the **Neural Network from scratch series** we saw various components of a neural network, how each component works and the whole work flow of that architecture. If you haven't checked that already, this is the [link]() to that blog post.
+
+Now to learn any concept thoroughly it is important to work examples and practice hands-on. Keeping this in mind, the agenda for the second part of this series involves studying a small example to understand the shapes of the matrices that take part in this process, then writing a neural network from scratch in python, coding a neural network using Tensorflow library and finally using the two neural networks on a dataset.
+
+
+
+
+
+## Getting your shapes right!
+As we saw previously, the whole workflow of a NN starts with the input layer. This input layer has certain number of neurons and that number is decided based on the dimension of the vector that will be taken as an input.
+
+Let us check out an example here, say, we start a new restaurant and we want to survey if people will return to our restaurant. Now the metric of measuring is simple, a person will come back or they won't, so either 1 or 0. The parameters on which we are measuring performance of the restaurant are service quality, ambience and food quality.
+
+||       	Input Parameters     		    ||   			 Output 	      ||
+|										     | 								   |
+| Service Quality | Ambience | Food Quality  |  Will the custormer come back?  |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		7  		  | 	8    | 		7 		 | 					1			   |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		5  		  | 	9    | 		4 		 | 					0			   |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		8  		  | 	6    | 		9 		 | 					1			   |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		2  		  | 	4    | 		9 		 | 					0			   |
+
+Now here we have four users and each user has given various ratings for every parameter and then finally stated if they will come back to our restaurant. So we have in our hands a binary classification problem, where output is either 1 or 0 and we want to train a model which will tell us what is the chance of people returning to our restaurant given how they rated our parameters. We will have a single hidden layered NN, i.e. **input $$\to$$ hidden layer $$\to$$ output**.
+
+
+> **_NOTE:_**  An important thing to notice here is that weights are randomly initialized in the below process.
+
+
+**Layer 1 - Inputs**
+
+We have four users with three parameters so our input matric will look like - $$\begin{bmatrix}7 & 8 & 7\\5 & 9 & 4\\8 & 6 & 9\\2 & 4 & 9\end{bmatrix}$$
+
+which is a matrix of shape $$(4,3)$$ i.e. *4 users x 3 paramters*. Now by the rules of matrix multiplication the weight matrix which is to be multiplied to input matrix will need to have shape $$(3, n)$$ where $$n$$ is the number of neurons in the next layer, which in our case is $$4$$. So the weights matrix has the shape $$(3,4)$$ and bias matrix has the shape $$(1,4)$$. The calulation of the input layer moving forward into the hidden layer will look like - 
+
+$$\begin{bmatrix}7 & 8 & 7\\5 & 9 & 4\\8 & 6 & 9\\2 & 4 & 9\end{bmatrix} \times \begin{bmatrix}0.1 & -0.2 & 0.3 & 0.4\\0.5 & 0.3 & -0.4 & 0.1\\-0.8 & 0.7 & -0.9 & -0.1\end{bmatrix} + \begin{bmatrix}1 & 1 & 1 & 1\end{bmatrix}$$
+
+**Layer 2 - Hidden layer**
+
+The output matrix of the above calculation comes out as $$\begin{bmatrix}0.1 & 6.9 & -6.4 & 3.9\\ 2.8 & 5.5 & -4.7 & 3.5\\-2.4 & 7.5 & -7.1 & 3.9\\-4 & 8.1 & -8.1 & 1.3\end{bmatrix}$$
+
+which goes into the hidden layer as the input, where [sigmoid](https://aknottymathematician.github.io/glossary/#sigmoid)(can be any other too) activation function acts on the matrix to give the output
+
+$$ A = \begin{bmatrix}0.525 & 0.999 & 0.002 & 0.98 \\0.943 & 0.996 & 0.009 & 0.971\\0.083 & 0.999 & 0.001 & 0.98 \\0.018 & 1 & 0 & 0.786\end{bmatrix}$$
+
+So the output coming from the hidden layer is the matrix $$A$$ whose shape is $$(4,4)$$. Now the weights matrix layer will have shape (4, 2), 
+
+$$\begin{bmatrix}0.6 & 0.8\\0.8 & 0.4\\0.1 & 0.6\\0.1 & 0.4\end{bmatrix}$$
+
+
+with bias as $$\begin{bmatrix}1 & 1\end{bmatrix}$$
+
+
+[TOP](#){: .btn .btn--danger}
