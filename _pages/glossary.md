@@ -76,7 +76,7 @@ Weights</a>
 
 ### Activation Functions
 
-#### Step Function
+#### 1 .Step Function
 
 Equation for Step Function
 $$ f(x) =
@@ -87,7 +87,7 @@ $$ f(x) =
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/step_function.png" alt="step function">
 
 
-#### ReLU
+#### 2. ReLU
 
 Equation for Rectified Linear Unit(ReLU) activation function
 $$  f(x) =
@@ -98,19 +98,19 @@ x, & x \geq 0
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ReLU.png" alt="ReLU">
 
 
-#### Sigmoid
+#### 3. Sigmoid
 
 Equation for Sigmoid
 $$ f(x) =  \frac{\mathrm{1} }{\mathrm{1} + e^{-x} }  $$ 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sigmoid.png" alt="Sigmoid">
 
-#### Tanh
+#### 4. Tanh
 
 Equation for Tanh
 $$ f(x) =  \frac{e^{x} - e^{-x} }{e^{x} + e^{-x} }  $$ 
 
 
-#### Leaky ReLU
+#### 5. Leaky ReLU
 
 Equation for Rectified Linear Unit(ReLU) activation function
 $$  f(x) =
@@ -118,11 +118,9 @@ $$  f(x) =
 0.01x,  & x \lt 0 \\
 x, & x \geq 0 
 \end{cases} $$
-...
 
 ---
 
-...
 ### Components of NN
 
 #### Activation Function
