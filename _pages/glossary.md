@@ -23,7 +23,7 @@ header:
 [Tanh](#tanh)
 <br>
 </details> -->
-## <ins>Table of Content</ins>
+## Table of Content
 
 <details>
 <summary>
@@ -45,6 +45,8 @@ Tanh</a>
 Leaky ReLU</a>
 <br>
 </details>
+
+---
 
 <details>
 <summary>
