@@ -29,19 +29,19 @@ header:
 <summary>
 <i>Activation Functions </i>
 </summary>
-<a href="https://aknottymathematician.github.io/glossary/#step-function">
+<a href="https://aknottymathematician.github.io/glossary/#1-step-function">
 Step Function</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#relu">
+<a href="https://aknottymathematician.github.io/glossary/#2-relu">
 ReLU</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#sigmoid">
+<a href="https://aknottymathematician.github.io/glossary/#3-sigmoid">
 Sigmoid</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#tanh">
+<a href="https://aknottymathematician.github.io/glossary/#4-tanh">
 Tanh</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#leaky-relu">
+<a href="https://aknottymathematician.github.io/glossary/#5-leaky-relu">
 Leaky ReLU</a>
 <br>
 </details>
@@ -65,6 +65,9 @@ Neuron</a>
 Weights</a>
 <br>
 </details>
+
+---
+
 <!-- 1. [Example](#example)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
