@@ -149,3 +149,75 @@ For nearly each of these components of a Neural Network there are variants, but 
 [TOP](#){: .btn .btn--danger}
 
 
+In the first part of the **Neural Network from scratch series** we saw various components of a neural network, how each component works and the whole work flow of that architecture. If you haven't checked that already, this is the [link]() to that blog post.
+
+Now to learn any concept thoroughly it is important to work examples and practice hands-on. Keeping this in mind, the agenda for the second part of this series involves studying a small example to understand the shapes of the matrices that take part in this process, then writing a neural network from scratch in python, coding a neural network using Tensorflow library and finally using the two neural networks on a dataset.
+
+
+
+
+
+## Getting your shapes right!
+As we saw previously, the whole workflow of a NN starts with the input layer. This input layer has certain number of neurons and that number is decided based on the dimension of the vector that will be taken as an input.
+
+Let us check out an example here, say, we start a new restaurant and we want to survey if people will return to our restaurant. Now the metric of measuring is simple, a person will come back or they won't, so either 1 or 0. The parameters on which we are measuring performance of the restaurant are service quality, ambience and food quality.
+
+||       	Input Parameters     		    ||   			 Output 	      ||
+|										     | 								   |
+| Service Quality | Ambience | Food Quality  |  Will the custormer come back?  |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		7  		  | 	8    | 		7 		 | 					1			   |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		5  		  | 	9    | 		4 		 | 					0			   |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		8  		  | 	6    | 		9 		 | 					1			   |
+| :-------------: | :------: | :-----------: | :-----------------------------: |
+| 		2  		  | 	4    | 		9 		 | 					0			   |
+
+Now here we have four users and each user has given various ratings for every parameter and then finally stated if they will come back to our restaurant. So we have in our hands a binary classification problem, where output is either 1 or 0 and we want to train a model which will tell us what is the chance of people returning to our restaurant given how they rated our parameters. We will have a single hidden layered NN, i.e. **input $$\to$$ hidden layer $$\to$$ output**.
+
+
+> **_NOTE:_**  An important thing to notice here is that weights are randomly initialized in the below process.
+
+
+**Layer 1 - Inputs**
+
+We have four users with three parameters so our input matric will look like - $$\begin{bmatrix}7 \\ 8 \\ 7 \end{bmatrix}$$ (Input matrix)
+
+which is a matrix of shape $$(3,1)$$ i.e. *3 parameters x 1 user*. Now the dimension for the weight matrix which is to be multiplied to input matrix will have shape $$(neurons, inputs)$$. So the weights matrix has the shape $$(4,3)$$ and bias matrix has the shape $$(4,1)$$. The calulation of the input layer moving forward into the hidden layer will look like - 
+
+$$\begin{bmatrix}0.1 & -0.2 & 0.3\\-0.3 & -0.4 & 0.1\\0.7 & -0.9 & -0.1\\0.5 & -0.8 & -0.7\end{bmatrix} \times \begin{bmatrix}7 \\8\\7\end{bmatrix} + \begin{bmatrix}1 \\ 1 \\ 1 \\ 1\end{bmatrix}$$
+
+
+**Layer 2 - Hidden layer**
+
+The output matrix of the above calculation comes out as $$\begin{bmatrix}2.2\\-3.6\\-2.0\\-6.8\end{bmatrix}$$
+
+which goes into the hidden layer as the input, where [sigmoid](https://aknottymathematician.github.io/glossary/#1-sigmoid)(can be any other too) activation function acts on the matrix to give the output
+
+$$ A = \begin{bmatrix}0.9 \\0.027\\0.119\\0.001\end{bmatrix}$$
+
+So the output coming from the hidden layer is the matrix $$A$$ whose shape is $$(4,1)$$. Now the weights matrix layer will have shape (1,4), 
+
+$$\begin{bmatrix}0.5\\ 0.8\\ 0.3\\ 0.9\end{bmatrix}$$
+
+
+with bias as $$\begin{bmatrix}1\end{bmatrix}$$.
+
+**Layer 3 - Output Layer**
+
+So, output of the hidden layer multiplied by weights plus the bias gives us the final output. That is,
+
+$$ Output = \sigma\left(\begin{bmatrix}0.5\\ 0.8\\ 0.3\\ 0.9\end{bmatrix} \times \begin{bmatrix}0.9 \\0.027\\0.119\\0.001\end{bmatrix} + \begin{bmatrix}1\end{bmatrix}\right)$$
+
+which gives us,
+$$Output = \begin{bmatrix}0.875\end{bmatrix}$$
+
+We "compare" this output with the given output and calculate the error. This example showed the process of FeedForward neural network, the important things to understand here are the dimensions of the matrices moving through the neural network. A quick brief recap would be,
+
+| Input Layer | Weights 1 | Bias 1 |  Input/Output of hidden layer | Weights 2 | Bias 2 | Output Layer |
+| :---------: | :-------: | :----: | :---------------------------: | :-------: | :----: | :----------: |
+| 	(3,1)  	  |   (4,3)   |  (4,1) | 			(4,1)			   |	(1,4)  |   (1,)	|	   (1,)	   |
+
+
+Next, based on the error we optimize the model and backpropagate
