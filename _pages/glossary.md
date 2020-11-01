@@ -118,7 +118,11 @@ $$  f(x) =
 0.01x,  & x \lt 0 \\
 x, & x \geq 0 
 \end{cases} $$
+...
 
+---
+
+...
 ### Components of NN
 
 #### Activation Function
