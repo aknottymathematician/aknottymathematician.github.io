@@ -44,11 +44,25 @@ Tanh</a>
 <a href="https://aknottymathematician.github.io/glossary/#leaky-relu">
 Leaky ReLU</a>
 <br>
-
-
 </details>
 
-
+<details>
+<summary>
+<i>Components of NN </i>
+</summary>
+<a href="https://aknottymathematician.github.io/glossary/#activation-function">
+Activation Function</a>
+<br>
+<a href="https://aknottymathematician.github.io/glossary/#bias">
+Bias</a>
+<br>
+<a href="https://aknottymathematician.github.io/glossary/#neuron">
+Neuron</a>
+<br>
+<a href="https://aknottymathematician.github.io/glossary/#weights">
+Weights</a>
+<br>
+</details>
 <!-- 1. [Example](#example)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
@@ -115,7 +129,7 @@ Activation Functions determines the output of each element (perceptron or neuron
 
 Bias is a non-zero number defined by us and it acts the same way as $$c$$ does in the equation $$y = m\times x + c$$.
 
-### Neurons
+### Neuron
 
 A neuron is the most basic unit of a Neural Network. Each neuron stores information either as a real number or a mathematical operation that takes input, multiplies it by it's weights and then passes the sum through the activation function to the other neurons.
 
