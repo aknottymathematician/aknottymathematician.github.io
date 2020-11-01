@@ -23,6 +23,7 @@ header:
 [Tanh](#tanh)
 <br>
 </details> -->
+## <ins>Table of Content</ins>
 
 <details>
 <summary>
