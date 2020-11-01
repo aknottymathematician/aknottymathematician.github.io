@@ -12,7 +12,18 @@ header:
   
 ---
 
-# Table of Contents
+
+<details>
+<summary>1. Activation Functions</summary>
+<br>
+[ReLU](#relu)
+<br>
+[Sigmoid](#sigmoid)
+<br>
+[Tanh](#tanh)
+
+</details>
+
 1. [Example](#example)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
