@@ -24,6 +24,16 @@ header:
 <br>
 </details>
 
+<details>
+<summary>
+<i>Activation Functions </i>
+</summary>
+<a href="http://www.ironspider.ca/format_text/fontstyles.htm">
+Useful Source</a>
+<p>It's because the details block is html5. If you want to modify it your best bet is using html5. </p>
+</details>
+
+
 1. [Example](#example)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
