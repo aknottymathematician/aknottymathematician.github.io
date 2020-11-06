@@ -144,7 +144,7 @@ For nearly each of these components of a Neural Network there are variants, but 
 | :-------------: | :------: | :-----------: | :-----------------------------: |
 | 		2  		  | 	4    | 		9 		 | 				  0 			   |
 
-
+**input $\to$ hidden layer $\to$ output**
 
 ## References 
 
