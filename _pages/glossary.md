@@ -52,19 +52,21 @@ Leaky ReLU</a>
 <summary>
 <i>Components of NN </i>
 </summary>
-<a href="https://aknottymathematician.github.io/glossary/#activation-function">
+<a href="https://aknottymathematician.github.io/glossary/#1-activation-function">
 Activation Function</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#bias">
+<a href="https://aknottymathematician.github.io/glossary/#2-bias">
 Bias</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#neuron">
+<a href="https://aknottymathematician.github.io/glossary/#3-neuron">
 Neuron</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#weights">
+<a href="https://aknottymathematician.github.io/glossary/#4-weights">
 Weights</a>
 <br>
 </details>
+
+---
 
 ---
 
@@ -128,20 +130,20 @@ x, & x \geq 0
 
 ### <ins>Components of NN</ins>
 
-#### Activation Function
+#### 1. Activation Function
 
 Activation Functions determines the output of each element (perceptron or neuron) in the neural network. Each neuron’s output is the input of the neurons in the next layer of the network, so the inputs pass through multiple activation functions until the output layer gives a prediction.
 
-#### Bias
+#### 2. Bias
 
 Bias is a non-zero number defined by us and it acts the same way as $$c$$ does in the equation $$y = m\times x + c$$.
 
-#### Neuron
+#### 3. Neuron
 
 A neuron is the most basic unit of a Neural Network. Each neuron stores information either as a real number or a mathematical operation that takes input, multiplies it by it's weights and then passes the sum through the activation function to the other neurons.
 
 
-#### Weights
+#### 4. Weights
 
 Weights decide the importance of the input coming into a neuron. Weights are initialised randomly in the beginning, later however they are automatically calculated based on the output.
 
