@@ -134,7 +134,6 @@ For nearly each of these components of a Neural Network there are variants, but 
 
 
 ||       	Input Parameters     		    ||   			 Output 	      ||
-|										     | 								   |
 | Service Quality | Ambience | Food Quality  |  Will the custormer come back?  |
 | :-------------: | :------: | :-----------: | :-----------------------------: |
 | 		7  		  | 	8    | 		7 		 | 				  1 			   |
