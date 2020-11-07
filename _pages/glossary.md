@@ -73,16 +73,16 @@ Weights</a>
 <i>Loss Functions</i>
 </summary>
 <a href="https://aknottymathematician.github.io/glossary/#1-mae(mean-absolute-error)">
-Activation Function</a>
+MAE</a>
 <br>
 <a href="https://aknottymathematician.github.io/glossary/#2-mse(mean-square-error)">
-Bias</a>
+MSE</a>
 <br>
 <a href="https://aknottymathematician.github.io/glossary/#2-rmse(root-mean-square-error)">
-Neuron</a>
+RMSE</a>
 <br>
 <a href="https://aknottymathematician.github.io/glossary/#4-cross-entropy">
-Weights</a>
+Cross Entropy</a>
 <br>
 </details>
 
