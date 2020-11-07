@@ -218,7 +218,7 @@ def accuracy(self, x_val, y_val):
 	return np.mean(predictions)
 
 ```
-Finally, we give the paramters of sizes of layers and run the code. The whole code is available in the github repository.
+Finally, we give the parameters of sizes of layers and run the code. Complete code is available in the github repository [akm_codes](https://github.com/aknottymathematician/akm_codes).
 
 ---
 
@@ -257,6 +257,8 @@ val_loss, val_acc = model.evaluate(x_test, y_test)
 ```
 If the model has overfit on trained data there is a very good chance that it's accuracy on the test data will be low. So, again, even though there is no one way of saying what accuracy is best, a rule of thumb is that train and test accuracy should be in the small neighbourhood of each other.
 
+Complete code is available in the github repository [akm_codes](https://github.com/aknottymathematician/akm_codes).
+
 [TOP](#){: .btn .btn--danger}
 
 ## Conclusion
@@ -277,17 +279,3 @@ This concludes my first series on **Neural Network from scratch**. If you find a
 - [Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) series by Grant Sanderson
 
 [TOP](#){: .btn .btn--danger}
-
-
-
-## collapsible markdown?
-
-<details>
-<summary>How do I dropdown?</summary>
-<br>
-```python
-	import numpy as np
-	print("Hello World!")
-```
-
-</details>
