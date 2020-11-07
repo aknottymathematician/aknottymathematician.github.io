@@ -128,8 +128,7 @@ x, & x \geq 0
 
 #### 6. Softmax
 The softmax function squashes the outputs of each unit to be between 0 and 1, just like a sigmoid function. But it also divides each output such that the total sum of the outputs is equal to 1.
-The output of the softmax function is equivalent to a categorical probability distribution, it tells you the probability that any of the classes are true. Simply speaking, it a generalization of the logistic function to multiple dimensions.
-
+The output of the softmax function is equivalent to a categorical probability distribution, it tells you the probability that any of the classes are true. Simply speaking, it a generalization of the logistic function to multiple dimensions. 
 $$\text{softmax}(\mathbf{z})_i = \frac{\exp(z_i)}{\sum_{l=0}^{K-1}\exp(z_l)}$$
 ---
 
