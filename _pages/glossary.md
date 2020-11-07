@@ -126,6 +126,11 @@ $$  f(x) =
 x, & x \geq 0 
 \end{cases} $$
 
+#### 6. Softmax
+The softmax function squashes the outputs of each unit to be between 0 and 1, just like a sigmoid function. But it also divides each output such that the total sum of the outputs is equal to 1.
+The output of the softmax function is equivalent to a categorical probability distribution, it tells you the probability that any of the classes are true. Simply speaking, it a generalization of the logistic function to multiple dimensions.
+
+$$\text{softmax}(\mathbf{z})_i = \frac{\exp(z_i)}{\sum_{l=0}^{K-1}\exp(z_l)}$$
 ---
 
 ### <ins>Components of NN</ins>
@@ -147,10 +152,31 @@ A neuron is the most basic unit of a Neural Network. Each neuron stores informat
 
 Weights decide the importance of the input coming into a neuron. Weights are initialised randomly in the beginning, later however they are automatically calculated based on the output.
 
+#### 5. Loss function
+It is a metric to know how well the algorithm fits on the given data. In other words, it gives us the error between the actual value and the predicted value. A Loss Function is defined for a single training example, whereas when used in context of whole dataset it's called Cost Function, which is the average of Loss Functions.
+As a process of optimizing the model, we try to lowering the value of the loss function
+
+#### 6. Optimizer
+Optimizers are algorithms which are used to update the weights based on the based on the errors calculated by the loss function. Essentially, the loss function is the guide telling the optimizer whether it is updating the weights correctly or not.
+
 ### <ins>Loss Functions</ins>
 
-#### MSE(Mean Squared Error)
+#### 1. MAE(Mean Absolute Error)
+The algorithm takes the differences in all of the predicted and actual prices, adds them up and then divides them by the number of observations. Since it is the absolute value it doesn't matter which way we take the difference. Simply put, the average difference observed in the predicted and actual values across the whole test set.
+$$MAE =(\frac{1}{n})\sum_{i=1}^{n}\left | y_{i} - y_{i}' \right|$$
 
-#### RMSE(Root Mean Squared Error)
+#### 2. MSE(Mean Squared Error)
+As the name suggests, we take average of squares between predicted and actual value, over the whole set. Now, as a result of the squaring, it assigns more weight to the bigger errors. The algorithm then continues to add them up and average them. Thus this isn't the most useful algorithms in most cases, however, it is a stepping stone to RMSE.
 
-#### Log Loss
+$$MSE = (\frac{1}{n})\sum_{i=1}^{n}(y_{i} - y_{i}')^{2}$$
+
+#### 3. RMSE(Root Mean Squared Error)
+RMSE can be obtained just be obtaining the square root of MSE.
+
+$$RMSE = \sqrt{(\frac{1}{n})\sum_{i=1}^{n}(y_{i} - y_{i}')^{2}}$$
+
+
+#### 4. Cross Entropy
+
+
+$$Cross \ Entropy = - \sum_{i} ({y_i' \log(y_i) + (1-y_i') \log (1-y_i)})$$
