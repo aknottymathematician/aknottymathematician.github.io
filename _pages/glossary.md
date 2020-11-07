@@ -182,6 +182,7 @@ Optimizers are algorithms which are used to update the weights based on the base
 
 #### 1. MAE(Mean Absolute Error)
 The algorithm takes the differences in all of the predicted and actual prices, adds them up and then divides them by the number of observations. Since it is the absolute value it doesn't matter which way we take the difference. Simply put, the average difference observed in the predicted and actual values across the whole test set.
+
 $$MAE =(\frac{1}{n})\sum_{i=1}^{n}\left | y_{i} - y_{i}' \right|$$
 
 #### 2. MSE(Mean Squared Error)
