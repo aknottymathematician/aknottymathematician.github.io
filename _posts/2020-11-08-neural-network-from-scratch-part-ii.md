@@ -16,7 +16,7 @@ tags:
 header:
   image: "/assets/images/NN_blog-post-banner_19-October-2020.png"
   teaser: "/assets/images/KM_blog-teaser-banner-1_16-August-2020.jpg"
-excerpt: "Neural Network from scratch"
+excerpt: "Coding the Neural Network"
 mathjax: true
 toc: true
 
