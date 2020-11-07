@@ -86,6 +86,10 @@ Cross Entropy</a>
 <br>
 </details>
 
+
+
+
+
 ---
 ---
 
@@ -149,8 +153,16 @@ x, & x \geq 0
 The softmax function squashes the outputs of each unit to be between 0 and 1, just like a sigmoid function. But it also divides each output such that the total sum of the outputs is equal to 1.
 The output of the softmax function is equivalent to a categorical probability distribution, it tells you the probability that any of the classes are true. Simply speaking, it a generalization of the logistic function to multiple dimensions. 
 $$\text{softmax}(\mathbf{z})_i = \frac{\exp(z_i)}{\sum_{l=0}^{K-1}\exp(z_l)}$$
+[TOP](#){: .btn .btn--danger}
 
 ---
+
+
+[TOP](#){: .btn .btn--danger}
+
+
+---
+
 
 ### <ins>Components of NN</ins>
 
@@ -180,6 +192,12 @@ Optimizers are algorithms which are used to update the weights based on the base
 
 ---
 
+
+[TOP](#){: .btn .btn--danger}
+
+
+---
+
 ### <ins>Loss Functions</ins>
 
 #### 1. Mean Absolute Error
@@ -202,3 +220,8 @@ $$RMSE = \sqrt{(\frac{1}{n})\sum_{i=1}^{n}(y_{i} - y_{i}')^{2}}$$
 
 
 $$Cross \ Entropy = - \sum_{i} ({y_i' \log(y_i) + (1-y_i') \log (1-y_i)})$$
+
+---
+
+
+[TOP](#){: .btn .btn--danger}
