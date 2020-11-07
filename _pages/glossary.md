@@ -72,14 +72,14 @@ Weights</a>
 <summary>
 <i>Loss Functions</i>
 </summary>
-<a href="https://aknottymathematician.github.io/glossary/#1-mae-mean-absolute-error">
-MAE</a>
+<a href="https://aknottymathematician.github.io/glossary/#1-mean-absolute-error">
+MAE(Mean Absolute Error)</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#2-mse(mean-square-error)">
-MSE</a>
+<a href="https://aknottymathematician.github.io/glossary/#2-mean-square-error">
+MSE(Mean Squared Error)</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#2-rmse(root-mean-square-error)">
-RMSE</a>
+<a href="https://aknottymathematician.github.io/glossary/#2-root-mean-square-error">
+RMSE(Root Mean Squared Error)</a>
 <br>
 <a href="https://aknottymathematician.github.io/glossary/#4-cross-entropy">
 Cross Entropy</a>
@@ -178,19 +178,21 @@ As a process of optimizing the model, we try to lowering the value of the loss f
 #### 6. Optimizer
 Optimizers are algorithms which are used to update the weights based on the based on the errors calculated by the loss function. Essentially, the loss function is the guide telling the optimizer whether it is updating the weights correctly or not.
 
+---
+
 ### <ins>Loss Functions</ins>
 
-#### 1. MAE(Mean Absolute Error)
+#### 1. Mean Absolute Error
 The algorithm takes the differences in all of the predicted and actual prices, adds them up and then divides them by the number of observations. Since it is the absolute value it doesn't matter which way we take the difference. Simply put, the average difference observed in the predicted and actual values across the whole test set.
 
 $$MAE =(\frac{1}{n})\sum_{i=1}^{n}\left | y_{i} - y_{i}' \right|$$
 
-#### 2. MSE(Mean Squared Error)
+#### 2. Mean Squared Error
 As the name suggests, we take average of squares between predicted and actual value, over the whole set. Now, as a result of the squaring, it assigns more weight to the bigger errors. The algorithm then continues to add them up and average them. Thus this isn't the most useful algorithms in most cases, however, it is a stepping stone to RMSE.
 
 $$MSE = (\frac{1}{n})\sum_{i=1}^{n}(y_{i} - y_{i}')^{2}$$
 
-#### 3. RMSE(Root Mean Squared Error)
+#### 3. Root Mean Squared Error
 RMSE can be obtained just be obtaining the square root of MSE.
 
 $$RMSE = \sqrt{(\frac{1}{n})\sum_{i=1}^{n}(y_{i} - y_{i}')^{2}}$$
