@@ -188,6 +188,7 @@ Train function calls the previously defined functions and executes them of the t
 
 ```python
 def train(self, x_train, y_train, x_val, y_val):
+	
 	start_time = time.time()
 	for iteration in range(self.epochs):
 		for x,y in zip(x_train, y_train):
@@ -207,8 +208,8 @@ To check how well a neural network is trained we have the accuracy function whic
 
 ```python
 def accuracy(self, x_val, y_val):
+	
 	predictions = []
-
 	for x, y in zip(x_val, y_val):
 		output = self.feedforward(x)
 		pred = np.argmax(output)
