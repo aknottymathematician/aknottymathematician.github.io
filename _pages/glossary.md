@@ -70,7 +70,7 @@ Weights</a>
 
 <details>
 <summary>
-<i>Components of NN </i>
+<i>Loss Functions</i>
 </summary>
 <a href="https://aknottymathematician.github.io/glossary/#1-mae(mean-absolute-error)">
 Activation Function</a>
