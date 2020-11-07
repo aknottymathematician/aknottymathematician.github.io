@@ -72,7 +72,7 @@ Weights</a>
 <summary>
 <i>Loss Functions</i>
 </summary>
-<a href="https://aknottymathematician.github.io/glossary/#1-mae(mean-absolute-error)">
+<a href="https://aknottymathematician.github.io/glossary/#1-mae-mean-absolute-error">
 MAE</a>
 <br>
 <a href="https://aknottymathematician.github.io/glossary/#2-mse(mean-square-error)">
