@@ -279,9 +279,3 @@ This concludes my first series on **Neural Network from scratch**. If you find a
 - [Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) series by Grant Sanderson
 
 [TOP](#){: .btn .btn--danger}
-
-<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-<script>
-  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-  formbutton("create", {title:"Contact Me", action: "https://formspree.io/f/mjvpovka"})
-</script>

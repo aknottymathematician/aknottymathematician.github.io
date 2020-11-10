@@ -145,9 +145,3 @@ For nearly each of these components of a Neural Network there are variants, but 
 
 [TOP](#){: .btn .btn--danger}
 
-
-<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-<script>
-  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-  formbutton("create", {title:"Contact Me", action: "https://formspree.io/f/mjvpovka"})
-</script>
