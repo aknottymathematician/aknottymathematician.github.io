@@ -2,15 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-<html>
-<head>
-<style>
-a.one:link {color:#ff0000;}
-a.one:visited {color:#0000ff;}
-a.one:hover {color:#ffcc00;}
-</style>
-</head>
-</html>
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+ 
+#{$a-tags} {
+  color:red;
+  text-decoration: underline;
+}
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
