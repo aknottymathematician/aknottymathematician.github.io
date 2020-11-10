@@ -75,10 +75,10 @@ Weights</a>
 <a href="https://aknottymathematician.github.io/glossary/#1-mean-absolute-error">
 MAE(Mean Absolute Error)</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#2-mean-square-error">
+<a href="https://aknottymathematician.github.io/glossary/#2-mean-squared-error">
 MSE(Mean Squared Error)</a>
 <br>
-<a href="https://aknottymathematician.github.io/glossary/#2-root-mean-square-error">
+<a href="https://aknottymathematician.github.io/glossary/#3-root-mean-squared-error">
 RMSE(Root Mean Squared Error)</a>
 <br>
 <a href="https://aknottymathematician.github.io/glossary/#4-cross-entropy">
