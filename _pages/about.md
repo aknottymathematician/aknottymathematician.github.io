@@ -21,4 +21,6 @@ I am an AI Engineer at [Miko](https://miko.ai/in), working in Natural Language P
 <a href="https://feedburner.google.com/fb/a/mailverify?uri=AKnottyMathematician&amp;loc=en_US">Subscribe to A Knotty Mathematician by Email</a>
 
 
+<p><a href="http://feeds.feedburner.com/AKnottyMathematician" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon32x32.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/AKnottyMathematician" rel="alternate" type="application/rss+xml">Subscribe in a reader</a></p>
+
 ---
