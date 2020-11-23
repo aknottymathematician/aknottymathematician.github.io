@@ -124,7 +124,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://www.instagram.com/aknottymathematician/" #"https://instagram.com/"
-    - label: "Subscribe"
+    - label: [<span style="color:red">Subscribe</span>]
       icon: "fas fa-fw fa-bell"
       url: "https://feedburner.google.com/fb/a/mailverify?uri=github-AKM&amp;loc=en_US"  #"https://github.com/"
 
