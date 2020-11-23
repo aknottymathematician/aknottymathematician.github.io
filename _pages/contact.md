@@ -10,7 +10,7 @@ I am an AI Engineer at [Miko](https://miko.ai/in), working in Natural Language P
 
 You can find me here - 
 
-<i class="fas fa-fw fa-envelope-square"></i> [<span style="color:black">Email</span>](mailto:aknottymathematician@gmail.com)
+<i class="fa fa-envelope" aria-hidden="true"></i> [<span style="color:black">Email</span>](mailto:aknottymathematician@gmail.com)
 
 <i class="fab fa-fw fa-twitter-square" style="color:#55acee"></i> [<span style="color:black">Twitter</span>](https://twitter.com/aknottymathema1)
 
