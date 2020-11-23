@@ -2,7 +2,7 @@
 title: "Contact"
 permalink: /contact/
 header:
-  image: "/assets/images/KM_contact-me_24-Nov-2020.jpg"
+  image: "/assets/images/KM_contact-me_24-Nov-2020.png"
 
 ---
 
