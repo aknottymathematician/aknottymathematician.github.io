@@ -10,16 +10,16 @@ I am an AI Engineer at [Miko](https://miko.ai/in), working in Natural Language P
 
 You can find me here - 
 
-<i class="fa fa-envelope" aria-hidden="true"></i> [<span style="color:black" margin-bottom= "0em" >Email</span>](mailto:aknottymathematician@gmail.com)
+<i class="fa fa-envelope" aria-hidden="true"></i> [<span style="color:black" body { margin:0; } >Email</span>](mailto:aknottymathematician@gmail.com)
 
-<i class="fab fa-fw fa-twitter-square" style="color:#55acee"></i> [<span style="color:black">Twitter</span>](https://twitter.com/aknottymathema1)
+<i class="fab fa-fw fa-twitter-square" style="color:#55acee"></i> [<span style="color:black" body { margin:0; }>Twitter</span>](https://twitter.com/aknottymathema1)
 
-<i class="fab fa-fw fa-linkedin" style="color:#007bb6"></i> [<span style="color:black">Linkedin</span>](https://www.linkedin.com/in/jasraj-date/)
+<i class="fab fa-fw fa-linkedin" style="color:#007bb6"></i> [<span style="color:black" margin-bottom= "0em">Linkedin</span>](https://www.linkedin.com/in/jasraj-date/)
 
 
 Furthermore, the codes used in the the blog can be found on 
 
-<i class="fab fa-fw fa-github" style="color:#171516"></i> [<span style="color:black">AKM</span>](https://github.com/aknottymathematician) Github page.
+<i class="fab fa-fw fa-github" style="color:#171516"></i> [<span style="color:black" margin-bottom= "0em">AKM</span>](https://github.com/aknottymathematician) Github page.
 
 <!-- <i class="fab fa-fw fa-twitter-square" style="color:#55acee"></i> [<span style="color:black">Twitter</span>](https://twitter.com/aknottymathema1) -->
 
