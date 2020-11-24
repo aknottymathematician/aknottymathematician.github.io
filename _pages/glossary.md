@@ -64,6 +64,12 @@ Neuron</a>
 <a href="https://aknottymathematician.github.io/glossary/#4-weights">
 Weights</a>
 <br>
+<a href="https://aknottymathematician.github.io/glossary/#5-loss-function">
+Loss Function</a>
+<br>
+<a href="https://aknottymathematician.github.io/glossary/#6-optimizers">
+Optimizers</a>
+<br>
 </details>
 
 ---
