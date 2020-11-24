@@ -125,8 +125,8 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://www.instagram.com/aknottymathematician/" #"https://instagram.com/"
     - label: "Subscribe"
-      icon: "fas fa-fw fa-bell"
-      url: "https://feedburner.google.com/fb/a/mailverify?uri=github-AKM&amp;loc=en_US"  #"https://github.com/"
+      icon: ""
+      url: ""  #"https://github.com/"
 
 # Site Footer
 footer:
