@@ -79,7 +79,7 @@ Now as we saw with one hot encoding there was one issue of excessive memory and 
 
 Bag of Words is a representation model of document data, which simply counts how many times a word appears in a document. Bag-of-Words is commonly used in clustering, classification, and topic modeling by weighing special words and relevant terminologies. Below is a flow of Bag-of-Words transformation.
 
-```
+```python
 #Sample Sentences
 All movies are not bad. Some movies are fun
 Tokenization - "All","movies","are","not","bad","some", "movies", "are","fun"
