@@ -79,7 +79,7 @@ Now as we saw with one hot encoding there was one issue of excessive memory and 
 
 Bag of Words is a representation model of document data, which simply counts how many times a word appears in a document. Bag-of-Words is commonly used in clustering, classification, and topic modeling by weighing special words and relevant terminologies. Below is a flow of Bag-of-Words transformation.
 
-```JSON
+```
 #Sample Sentences
 All movies are not bad. Some movies are fun
 Tokenization - "All","movies","are","not","bad","some", "movies", "are","fun"
@@ -136,7 +136,7 @@ To improve on that we need to make use of word embeddings, which assign each wor
 Hope you all are able take away something from here. Please **share** the post and **subscribe** to the blog.
 If you find any mistake in what I have written or error in the code please drop a mail, I will do the needful as required. Until next time!
 
-[TOP](#){: .btn .btn--danger}
+
 
 ## References 
 
