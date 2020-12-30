@@ -34,7 +34,7 @@ In this [lecture](https://www.youtube.com/watch?v=733m6qBH-jI) prof. Andrew Ng s
 
 Now, for example, as an AI Engineer working on the language team I am expected to have knowledge in four verticals(not exhaustive) - Math, Python Coding, NLP and Knowledge of Database Management.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/T_model.png" alt="T Model">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/T_model.png" alt="T Model" class="center">
 
 
 To make it clear, I don't claim to have great knowledge in NLP. I, just like you, am a learner, barely scratching the surface of such a vast topic. But as you can see unless you have a strong inclination towards studying and learning new concepts consistenly it is very difficult to sustain yourself in this field.
