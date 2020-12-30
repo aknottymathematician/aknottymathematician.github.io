@@ -43,8 +43,7 @@ __However, please do not get deterred by the enormity of the knowledge in front 
 > Of course, to become a Data Scientist or AI Engineer or ML Engineer you need a plethora of other ingredients in your menu, including but not restricted to - ability to explain the concepts(especially if you're working with a non-technical clientele), problem solving capacity, some projects under your belt, **Luck** etc.
 
 ## How and What to study?
-Now coming to the part - **How and What to study?**
-Here's a compilation of the resources I came across during my journey. These resources are in no particular order and by no means exhaustive. I hope you find them useful and are able to make the best out of them.
+As I said earlier start small and explore various topics. To help you with that here's a compilation of the resources I came across during my journey. These resources are in no particular order and by no means exhaustive. I hope you find them useful and are able to make the best out of them.
 
 >Please note that the resources mentioned below are/have been used by me. I am sure there are many other available resources and perhaps better than once I mentioned, I would love to hear more from you guys.
 
@@ -57,10 +56,10 @@ It is quite daunting to think about all the things that you have to learn, I fel
 3. [AI Master's degree](https://www.mrdbourke.com/aimastersdegree/)
 
 The process of deciding the syllabus and the path to be followed won't happen in just one day.
-Also, above links will only help you figure out what portion you have to cover. Best resource to learn which I would highly recommend is a video course supplemented by few other things.
+Also, above links will only help you figure out what portion you have to cover. Best resource to learn, which I would highly recommend, is a video course supplemented by few other things.
 
 ## Video Lectures
-There are amazing video lectures available for various subjects.
+There are amazing video lectures available for various subjects. Here are a few of them:
 ### Machine Learning
 1. [Machine Learning couse](https://www.coursera.org/learn/machine-learning) - by Andrew Ng
 2. [Machine Learning with python](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v) by Youtuber [Sentdex](https://www.youtube.com/user/sentdex)
