@@ -1,17 +1,9 @@
 ---
 
 title: "Natural Language Processing"
-permalink: /nlp/
+
 date: 2020-12-04
-layout: single
-classes: wide
-comments: true
-author_profile: false
-related: true
-share: true
-read_time: true
-tags:
-    - NLP
+
 
 header:
   image: "/assets/images/NLP_banner_4-Dec-2020.png"
