@@ -24,10 +24,16 @@ toc: true
 # Problem Statement
 Given the head of a linked list, return the list after sorting it in ascending order.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sort_linked_list1.png" alt="linked list number 1">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sort_linked_list1.jpg" alt="linked list number 1">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sort_linked_list2.png" alt="linked list number 2">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sort_linked_list2.jpg" alt="linked list number 2">
 
+
+## Brute Force
+
+
+
+## Merge Sort
 We will solve this using Merge Sort. So Time Complexity will O(NlogN) and Space Complexity will be O(N)
 General Algorithm to sort using Merge Sort is -
 1. Split the list into two parts.
