@@ -86,6 +86,15 @@
         </li>
       {% endif %}
 
+      {% if author.subscribe %}
+        <li>
+          <a href="https://feedburner.google.com/fb/a/mailverify?uri=github-AKM&amp;loc=en_US">
+            <i class="fas fa-fw fa-bell" aria-hidden="true" style="color:#ff0404"></i><span class="label" style="color:rgb(255, 0, 0)">Subscribe</span>
+          </a>
+        </li>
+      {% endif %}
+
+
       {% if author.linkedin %}
         <li>
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
