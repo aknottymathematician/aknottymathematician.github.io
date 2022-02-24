@@ -4,8 +4,8 @@ main:
 #     url: https://aknottymathematician.github.io/
   - title: "DSA Problems"
     url: https://aknottymathematician.github.io/dsa/
-  - title: "Blog Posts"
-    url: https://aknottymathematician.github.io/blogs/
+  # - title: "Blog Posts"
+  #   url: https://aknottymathematician.github.io/blogs/
   - title: "ML & DL Glossary"
     url: https://aknottymathematician.github.io/glossary/
   - title: "Contact"
