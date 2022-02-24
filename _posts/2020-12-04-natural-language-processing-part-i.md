@@ -1,8 +1,8 @@
 ---
 
-title: "Sort Linked List"
-permalink: /sort-linked-list/
-date: 2022-02-22
+title: "Natural Language Processing"
+permalink: /nlp/
+date: 2020-12-04
 layout: single
 classes: wide
 comments: true
@@ -11,90 +11,20 @@ related: true
 share: true
 read_time: true
 tags:
-    - DSA
-    - Linked List
-    - Sorting
-    - Merge Sort
+    - NLP
 
 header:
-  image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
-  teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
-excerpt: "Sort Linked List"
+  image: "/assets/images/NLP_banner_4-Dec-2020.png"
+  teaser: "/assets/images/NLP_teaser_4-Dec-2020.png"
+excerpt: "Basics of Natural Language Processing"
 mathjax: true
 toc: true
 
 ---
 
-# Problem Statement
-Given the head of a linked list, return the list after sorting it in ascending order.
+An important sign of an object being alive is communication. Of course, how each entity communicates might differ, but it's not just about showing signs of life that we need communication for. Every living organism uses one or the other way to express their thoughts, for example birds have different calls for different situations to communicate with other birds - say when there's a predator around or when they're mourning the loss of someone in their group. A more relatable example for us(other than our own species of course) would be dogs, you don't need to be a pet owner to understand what a dog is saying when it is barking loudly and running at you or if it is simply wagging the tail and resting on it's back asking for belly rubs. Humans have evolved to use sound in a much more complex and intricate ways.
+Even though we cannot declare that other species do not use "words" in their vocabularies, or at least in the conventional sense, it is safe to assume that at most all the languages spoken by humans have words and phrases in them which can denote an object or a feeling or anything that surrounds us in the world. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sort_linked_list1.png" alt="linked list number 1">
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sort_linked_list2.png" alt="linked list number 2">
-
-We will solve this using Merge Sort. So Time Complexity will O(NlogN) and Space Complexity will be O(N)
-General Algorithm to sort using Merge Sort is -
-1. Split the list into two parts.
-2. Compare the elements once we reach the Base Case.
-3. Merge the list with the sorted values.
-
-> The only difference for us will be in this for problem we will be applying Merge Sort on a Linked List.
-'''
-```
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-class Solution:
-    def sortList(self, head):
-        # if list if empty or catains just one element
-        if not head or not head.next:
-            return head
-        
-        #Split the list
-        left = head
-        right = self.getMid(head)
-        tmp = right.next
-        right.next = None
-        right = tmp
-
-        left = self.sortList(left)
-        right = self.sortList(right)
-
-        return self.merge(left,right)
-
-
-    def getMid(self,head):
-        slow = head
-        fast = head.next
-
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
-        return slow
-
-    def merge(self, left, right):
-        tail = dummy = ListNode()
-
-        while left and right:
-            if left.val<right.val:
-                tail.next = left
-                left = left.next
-            else:
-                tail.next = right
-                right = right.next
-
-            tail = tail.next
-        
-        if left:
-            tail.next = left
-        
-        if right:
-            tail.next = right
-        
-        return dummy.next
-```
 ## Text data surrounds us!
 
 Now, when we talk about conversation between humans, it has two aspects, the voice and the text. Natual language processing(NLP) focuses on the text part of the conversation. Somehow, this is one of the things that we never think about, the amount of text data around us. But with the growing presence of "intelligent machines" in our lives, it is imperative the we try and "teach" those machines our languages. Now machines, or to be more precise mathematical models which learn our languages, understand only only numerical values, so ideally our job comes down to converting text into numerical entities so that the models can find patterns. So without any further adieu let's see how to teach machines our languages.
@@ -134,7 +64,7 @@ Suppose our data comprises of the following 2 sentences:
 *Some movies are fun*
 Here, the value of N is 7, because there are 5 unique words: ['all’, ‘movies’, ‘are’, ‘not’, 'bad', 'some', ‘fun’]. Now to represent each word, we will use a vector of length 7.
 
-
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/one_hot_encoding.png" alt="one hot encoding">
 
 
 This is a simple and straightforward approach to convert all the words in a set of data into numbers and is one of the first methods implemented for this purpose, however this method has many issues.
@@ -200,7 +130,7 @@ Now even though we have improved on our previous method, tf-idf still lacks the 
 ## Conclusion
 All the methods that we saw are merely based on counting and though a bad way definitely doesn't help a ML model in understanding the nuances of the
 words.
-To improve on that we need to make use of word embeddings, which assign each word a vector and based on the "closeness" of those vectors model understands the patterns.
+To improve on that we need to make use of word embeddings, which assign each word a vector and based on the "closeness" of those vectors model understands the patterns. We will look at word embeddings closely in the next blog of the series, in particular **word2vec** and **Glove**.
 
 
 Hope you all are able take away something from here. Please **share** the post and **subscribe** to the blog.
