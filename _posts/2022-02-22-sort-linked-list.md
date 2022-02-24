@@ -39,13 +39,14 @@ General Algorithm to sort using Merge Sort is -
 3. Merge the list with the sorted values.
 
 > The only difference for us will be in this for problem we will be applying Merge Sort on a Linked List.
-'''
+
+
 ```
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 class Solution:
     def sortList(self, head):
         # if list if empty or catains just one element
