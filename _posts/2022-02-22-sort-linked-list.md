@@ -10,11 +10,7 @@ author_profile: false
 related: true
 share: true
 read_time: true
-tags:
-    - DSA
-    - Linked List
-    - Sorting
-    - Merge Sort
+
 
 header:
   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"

@@ -1,5 +1,5 @@
 ---
-layout: tags
+layout: posts
 permalink: /dsa/
 author_profile: true
 header:
