@@ -1,7 +1,7 @@
 ---
 
-title: "Natural Language Processing part-I"
-permalink: /nlp-part1/
+title: "Natural Language Processing"
+permalink: /nlp-basics/
 date: 2020-12-04
 layout: single
 classes: wide
@@ -130,7 +130,7 @@ Now even though we have improved on our previous method, tf-idf still lacks the 
 ## Conclusion
 All the methods that we saw are merely based on counting and though a bad way definitely doesn't help a ML model in understanding the nuances of the
 words.
-To improve on that we need to make use of word embeddings, which assign each word a vector and based on the "closeness" of those vectors model understands the patterns. We will look at word embeddings closely in the next blog of the series, in particular **word2vec** and **Glove**.
+To improve on that we need to make use of word embeddings, which assign each word a vector and based on the "closeness" of those vectors model understands the patterns.
 
 
 Hope you all are able take away something from here. Please **share** the post and **subscribe** to the blog.

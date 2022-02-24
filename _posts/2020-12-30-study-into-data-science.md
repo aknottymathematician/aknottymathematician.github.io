@@ -42,6 +42,8 @@ __However, please do not get deterred by the enormity of the knowledge in front 
 
 > Of course, to become a Data Scientist or AI Engineer or ML Engineer you need a plethora of other ingredients in your menu, including but not restricted to - ability to explain the concepts(especially if you're working with a non-technical clientele), problem solving capacity, some projects under your belt, **Luck** etc.
 
+[TOP](#){: .btn .btn--danger}
+
 ## How and What to study?
 As I said earlier start small and explore various topics. To help you with that here's a compilation of the resources I came across during my journey. These resources are in no particular order and by no means exhaustive. I hope you find them useful and are able to make the best out of them.
 
