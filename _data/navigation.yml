@@ -8,6 +8,8 @@ main:
     url: https://aknottymathematician.github.io/glossary/
   - title: "Contact"
     url: https://aknottymathematician.github.io/contact/
+  - title: "DSA Problems"
+    url: https://aknottymathematician.github.io/dsa/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
