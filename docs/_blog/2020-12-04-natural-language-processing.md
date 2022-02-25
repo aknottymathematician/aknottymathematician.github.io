@@ -1,17 +1,14 @@
 ---
 
 title: "Natural Language Processing"
-
 date: 2020-12-04
-
-
 header:
   image: "/assets/images/NLP_banner_4-Dec-2020.png"
   teaser: "/assets/images/NLP_teaser_4-Dec-2020.png"
 excerpt: "Basics of Natural Language Processing"
 mathjax: true
 toc: true
-
+author_profile: false
 ---
 
 An important sign of an object being alive is communication. Of course, how each entity communicates might differ, but it's not just about showing signs of life that we need communication for. Every living organism uses one or the other way to express their thoughts, for example birds have different calls for different situations to communicate with other birds - say when there's a predator around or when they're mourning the loss of someone in their group. A more relatable example for us(other than our own species of course) would be dogs, you don't need to be a pet owner to understand what a dog is saying when it is barking loudly and running at you or if it is simply wagging the tail and resting on it's back asking for belly rubs. Humans have evolved to use sound in a much more complex and intricate ways.
