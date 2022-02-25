@@ -1,12 +1,18 @@
 ---
 
 title: "Neural Network from scratch - Part II"
+permalink: /nn-from-scratch-part2/
 date: 2020-10-28
+layout: single
+classes: wide
 comments: true
 author_profile: false
 related: true
 share: true
 read_time: true
+tags:
+    - Deep Learning
+
 header:
   image: "/assets/images/NN_blog-post-banner_19-October-2020.png"
   teaser: "/assets/images/KM_blog-teaser-banner-1_16-August-2020.jpg"
