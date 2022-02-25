@@ -20,18 +20,14 @@ foo:
 
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-  - title: "About"
-    url: /about/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
+  - title: "DSA Problems"
+    url: https://aknottymathematician.github.io/dsa/
   - title: "Blog Posts"
-    url: /blog/
+    url: https://aknottymathematician.github.io/blog/
+  - title: "ML & DL Glossary"
+    url: https://aknottymathematician.github.io/glossary/
+  - title: "Contact"
+    url: https://aknottymathematician.github.io/contact/
 
 # documentation links
 docs:
@@ -89,10 +85,10 @@ docs:
         url: /docs/license/
       - title: "Terms &amp; Privacy Policy"
         url: /terms/
-  - title: Blog Posts
-    children:
-      - title: "Natural Language Processing"
-        url: /blog/nlp/
+  # - title: Blog Posts
+  #   children:
+  #     - title: "Natural Language Processing"
+  #       url: /blog/nlp/
 
 
 # sidebar navigation list sample
