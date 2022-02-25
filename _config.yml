@@ -300,10 +300,10 @@ defaults:
       classes: wide
       entries_layout: grid
       author_profile: true
-  # _blog
+  # _dsa
   - scope:
       path: ""
-      type: blog
+      type: dsa
     values:
       layout: single
       classes: wide
@@ -318,5 +318,8 @@ collections:
     output: true
     permalink: /:collection/:path/
   blog:
+    output: true
+    permalink: /:collection/:path/
+  dsa:
     output: true
     permalink: /:collection/:path/
