@@ -31,7 +31,7 @@ main:
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
   - title: "Blog Posts"
-    url: /docs/blogs/
+    url: /blogs/
 
 # documentation links
 docs:
