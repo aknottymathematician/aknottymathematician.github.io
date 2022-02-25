@@ -1,22 +1,13 @@
 ---
 
 title: "Sort Linked List"
-layout: single
-classes: wide
-comments: true
-author_profile: false
-related: true
-share: true
-read_time: true
-
-
 header:
   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
 excerpt: "Sort Linked List"
 mathjax: true
 toc: true
-
+author_profile: true
 ---
 
 # Problem Statement
