@@ -21,13 +21,13 @@ foo:
 # main links
 main:
   - title: "DSA Problems"
-    url: https://aknottymathematician.github.io/dsa/
+    url: /dsa/
   - title: "Blog Posts"
-    url: https://aknottymathematician.github.io/blog/
+    url: /blog/
   - title: "ML & DL Glossary"
-    url: https://aknottymathematician.github.io/glossary/
+    url: /glossary/
   - title: "Contact"
-    url: https://aknottymathematician.github.io/contact/
+    url: /contact/
 
 # documentation links
 docs:
