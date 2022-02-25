@@ -286,10 +286,10 @@ defaults:
       layout: single
       author_profile: false
       share: true
-  # _blogs
+  # _blog
   - scope:
       path: ""
-      type: blogs
+      type: blog
     values:
       layout: single
       author_profile: true
