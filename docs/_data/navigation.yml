@@ -89,10 +89,10 @@ docs:
         url: /docs/license/
       - title: "Terms &amp; Privacy Policy"
         url: /terms/
-  - title: Blog Posts
-    children:
-      - title: "Natural Language Processing"
-        url: /blog/nlp/
+  # - title: Blog Posts
+  #   children:
+  #     - title: "Natural Language Processing"
+  #       url: /blog/nlp/
 
 
 # sidebar navigation list sample
