@@ -43,7 +43,7 @@ General Algorithm to sort using Merge Sort is -
 > The only difference for us will be in this for problem we will be applying Merge Sort on a Linked List.
 
 
-```
+```python
 Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -98,9 +98,7 @@ class Solution:
         
         return dummy.next
 ```
-## Text data surrounds us!
 
-Now, when we talk about conversation between humans, it has two aspects, the voice and the text. Natual language processing(NLP) focuses on the text part of the conversation. Somehow, this is one of the things that we never think about, the amount of text data around us. But with the growing presence of "intelligent machines" in our lives, it is imperative the we try and "teach" those machines our languages. Now machines, or to be more precise mathematical models which learn our languages, understand only only numerical values, so ideally our job comes down to converting text into numerical entities so that the models can find patterns. So without any further adieu let's see how to teach machines our languages.
 
 [TOP](#){: .btn .btn--danger}
 
