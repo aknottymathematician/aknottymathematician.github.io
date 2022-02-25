@@ -292,8 +292,13 @@ defaults:
       type: blog
     values:
       layout: single
+      classes: wide
+      comments: true
+      entries_layout: grid
       author_profile: true
+      read_time: true
       share: true
+      related: true
 
 
 # Sass/SCSS
