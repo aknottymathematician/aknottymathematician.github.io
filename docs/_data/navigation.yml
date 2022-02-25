@@ -31,7 +31,7 @@ main:
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
   - title: "Blog Posts"
-    url: /blogs/
+    url: /blog/
 
 # documentation links
 docs:
@@ -92,7 +92,7 @@ docs:
   - title: Blog Posts
     children:
       - title: "Natural Language Processing"
-        url: /docs/nlp/
+        url: /blog/nlp/
 
 
 # sidebar navigation list sample
