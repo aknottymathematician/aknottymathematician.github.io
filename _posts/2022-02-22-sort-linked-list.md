@@ -1,7 +1,7 @@
 ---
 
 title: "Sort Linked List"
-permalink: /sort-linked-list/
+permalink: 
 date: 2022-02-22
 layout: single
 classes: wide
