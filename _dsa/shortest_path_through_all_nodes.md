@@ -47,7 +47,7 @@ Let us look at BFS algorithm,
 import collections
 
 def bfs(graph, root_node):
-    #add vsisited nodes to avoid duplicate values i.e. revisiting the node
+    #add visited nodes to avoid duplicate values i.e. revisiting the node
     visited = set()
     #initialize a queue DS with root node
     queue = collection.deque([root_node])
