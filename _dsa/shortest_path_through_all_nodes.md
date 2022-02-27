@@ -43,7 +43,7 @@ Explanation: One possible path is [0,1,4,2,3]
 The basic idea behind the problem is to find a shortest path connecting all the nodes. In general whenever we have to find the shortest path in a given undirected graph, we can simply use **Breadth First Search(BFS)**.
 
 Let us look at BFS algorithm,
-```python
+```python:
 import collections
 
 def bfs(graph, root_node):
