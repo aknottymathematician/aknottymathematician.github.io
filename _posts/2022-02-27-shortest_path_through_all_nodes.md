@@ -1,10 +1,10 @@
 ---
 
-title: "Shortest Path Visiting All Nodes"
+title: "Shortest Path Visiting All Nodes - Python"
 header:
   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
-excerpt: "Shortest Path Visiting All Nodes"
+excerpt: "Shortest Path Visiting All Nodes - Python"
 mathjax: true
 toc: true
 author_profile: true
