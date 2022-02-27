@@ -53,7 +53,7 @@ def bfs(graph, root_node):
     queue = collection.deque([root_node])
 
     while queue:
-        #until queue is not empty traverse through the graph 
+        # until queue is not empty traverse through the graph 
         # while deleting visited nodes from queue and 
         # adding them in visited set
         vertex = queue.popleft()
