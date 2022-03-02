@@ -47,13 +47,13 @@ Let us look at BFS algorithm,
 import collections
 
 def bfs(graph, root_node):
-    #add vsisited nodes to avoid duplicate values i.e. revisiting the node
+    #add visited nodes to avoid duplicate values i.e. revisiting the node
     visited = set()
     #initialize a queue DS with root node
     queue = collection.deque([root_node])
 
     while queue:
-        #until queue is not empty traverse through the graph 
+        # until queue is not empty traverse through the graph 
         # while deleting visited nodes from queue and 
         # adding them in visited set
         vertex = queue.popleft()
@@ -67,11 +67,11 @@ def bfs(graph, root_node):
 
 Now, BFS algorithm is designed in such a way that we visit each node only once. But in the problem it is given that we can revisit a node multiple times, which creates a slight setback since we cannot use BFS directly here, since if we do we run into the risk of getting into infinite loops. So the way around this issue is to make sure that we track all the visited nodes. And we do that by using **Bit Mask**.
 
->**NOTE -** To be able to successfully traverse the shortest path, we will be using five paramters,<br />
+>**NOTE -** To be able to successfully traverse the shortest path, we will be using five parameters,<br />
 **curState** - gives bitmask of a current node, i.e. this will tell whether we have traversed this path or not. (1 if visited and 0 if not visited).<br />
 **endState** - It tells us what is our final state, so that we keep comparing our current state and know when we have traversed shortest path <br />
 **path_len** - This will tell the length traversed in the path.<br />
-**Queue** - we add every node to it along with it's state, since we consider every node as a starting potential node.
+**queue** - we add every node to it along with it's state, since we consider every node as a starting potential node.<br />
 **Set DS *visited*** - It tells us which path we have already visited. It does not allow us to travel the repeative paths.
 
 If the same node was visited again with same visitedNodeBit, it means this node can be skipped, For example: 1->0->1->0.  First 1 we have {1, 10}, then we have {0, 11}, then we will have {1, 11}. Lastly, we have {0, 11} which is a state we already had before. So we don't visit this again.
@@ -142,7 +142,9 @@ def shortestPathLength(graph):
 Before we conclude today's discussion, I would like to highlight couple of points, 
 
 1. In the last part of the code where we append next node to the queue, we have used **OR** operator on integer. Here's an example to highlight how that works.
+
 ```python
+
 a = 2
 b = 5
 In binary form, a = 010 and b = 101
@@ -153,6 +155,7 @@ b   1   0   1
 a|b 1   1   1
 
 Therefore, a|b = 7
+
 ```
 
 2. Second point is about Bit Masking, even though it is an intuitive topic it will require a blog of it's own to understand properly. Will definitely cover that in future. But till then, you can refer to [this](https://www.youtube.com/watch?v=iQBxxTZDajU) amazing explanation by [Ayushi Sharma](https://www.youtube.com/channel/UCSnJKXPKhxS_tcaTcIZrPYg) to get a good understanding of the topic.
