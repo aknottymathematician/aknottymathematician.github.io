@@ -1,6 +1,7 @@
 ---
 
 title: "Neural Network from scratch - Part II"
+permalink: /nn-from-scratch-part2/
 date: 2020-10-28
 comments: true
 author_profile: false

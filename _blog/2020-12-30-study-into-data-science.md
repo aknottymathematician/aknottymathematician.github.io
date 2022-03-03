@@ -1,6 +1,7 @@
 ---
 
 title: "How to study your way into Data Science"
+permalink: /study-data-science/
 header:
   image: "/assets/images/Reference_banner_30-Dec-2020.png"
   teaser: "/assets/images/Reference_teaser_30-Dec-2020.png"
