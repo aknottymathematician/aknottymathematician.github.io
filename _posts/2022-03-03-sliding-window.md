@@ -1,7 +1,6 @@
 ---
 
 title: "Sliding Window Patterns"
-#permalink: 
 header:
   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
@@ -59,6 +58,7 @@ In case of brute force one thing to notice here is that when we are sliding over
 
 ## Sliding Window
 Finally we come down to the actual algorithm. As we discussed we make use of previously summed elements,
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window2.png" alt="sliding window for K = 3">
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window3.png" alt="sliding window for K = 3">
@@ -175,7 +175,7 @@ Time Complexity for this solution is O(N) since there is only pass over the arra
 
 
 ## Conclusion
-
+You will notice that once in the optimized algorithm, there are certain steps which will be common to any problem. What is important for this algorithm or any other algorithm is to understand the patterns occuring in the logic. More problems on sliding window can be found [here](https://github.com/aknottymathematician/DSA-Implementations/tree/master/sliding_window) 
 
 
 
@@ -188,7 +188,7 @@ If you find any mistake in what I have written or error in the code please drop 
 
 ## References 
 
-- [Neetcode](https://www.youtube.com/c/NeetCode) YouTube channel
+- [GFG](https://www.geeksforgeeks.org/window-sliding-technique/)
 
 - [Leetcode](https://leetcode.com/)
 
