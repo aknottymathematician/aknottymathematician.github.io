@@ -19,7 +19,7 @@ There are two type of Sliding Window Problems -
 1. Window size is fixed and sub-array satisfy some condition.
 2. Window size is unknown and we need to find sub-array which satisfies some condition.
 
-## Problem Statemet
+## Problem Statement
 Let us look at a sample problem which comes under SWT Type I.
 > Given an array, find the average of all subarrays of ‘K’ contiguous elements in it.
 

@@ -1,6 +1,7 @@
 ---
 
 title: "Sliding Window Patterns"
+#permalink: /sliding-window/
 header:
   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
@@ -18,13 +19,14 @@ There are two type of Sliding Window Problems -
 1. Window size is fixed and sub-array satisfy some condition.
 2. Window size is unknown and we need to find sub-array which satisfies some condition.
 
-## Problem Statemet
+## Problem Statement
 Let us look at a sample problem which comes under SWT Type I.
 > Given an array, find the average of all subarrays of ‘K’ contiguous elements in it.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window.png" alt="array 1">
 
 Let's take K = 3 then the idea is SWT visually is,
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window_diagram.png" alt="sliding window for K = 3">
 
 
