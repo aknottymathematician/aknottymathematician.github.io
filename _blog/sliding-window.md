@@ -26,6 +26,7 @@ Let us look at a sample problem which comes under SWT Type I.
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window.png" alt="array 1">
 
 Let's take K = 3 then the idea is SWT visually is,
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window_diagram.png" alt="sliding window for K = 3">
 
 
