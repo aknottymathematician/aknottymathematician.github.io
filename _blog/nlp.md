@@ -1,7 +1,7 @@
 ---
 
 title: "Natural Language Processing"
-#permalink: /nlp/
+#permalink: 
 header:
   image: "/assets/images/NLP_banner_4-Dec-2020.png"
   teaser: "/assets/images/NLP_teaser_4-Dec-2020.png"

@@ -1,7 +1,7 @@
 ---
 
 title: "Sliding Window Patterns"
-#permalink: /sliding-window/
+#permalink: 
 header:
   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
