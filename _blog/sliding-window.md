@@ -175,7 +175,7 @@ Time Complexity for this solution is O(N) since there is only pass over the arra
 
 
 ## Conclusion
-
+You will notice that once in the optimized algorithm, there are certain steps which will be common to any problem. What is important for this algorithm or any other algorithm is to understand the patterns occuring in the logic. More problems on sliding window can be found [here](https://github.com/aknottymathematician/DSA-Implementations/tree/master/sliding_window) 
 
 
 
@@ -188,7 +188,7 @@ If you find any mistake in what I have written or error in the code please drop 
 
 ## References 
 
-- [Neetcode](https://www.youtube.com/c/NeetCode) YouTube channel
+- [GFG](https://www.geeksforgeeks.org/window-sliding-technique/)
 
 - [Leetcode](https://leetcode.com/)
 
