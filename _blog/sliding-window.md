@@ -59,6 +59,7 @@ In case of brute force one thing to notice here is that when we are sliding over
 
 ## Sliding Window
 Finally we come down to the actual algorithm. As we discussed we make use of previously summed elements,
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window2.png" alt="sliding window for K = 3">
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window3.png" alt="sliding window for K = 3">
