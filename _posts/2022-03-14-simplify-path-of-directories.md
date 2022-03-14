@@ -54,7 +54,7 @@ We add the directory names according to the rules in a stack
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/simplify_path_step1.png" alt="Step I">
 
-After adding b and c to the stack, we come accross, **..** which means go back to previous directory
+After adding b and c to the stack, we come across, **..** which means go back to previous directory
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/simplify_path_step2.png" alt="Step II">
 
@@ -71,7 +71,7 @@ def simplifyPath(path):
 
     #reason for adding adding / in for loop is to 
     #take care of edge case where input does not end with /
-    for p in path:
+    for p in path + "/":
         if p == "/":
             if cur == "..":
                 if stack: stack.pop()
