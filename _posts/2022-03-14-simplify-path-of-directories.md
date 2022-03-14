@@ -81,7 +81,6 @@ def simplifyPath(path):
         else:
             cur+=p
     return "/" + "/".join(stack)
-
 ```
 
 ## Conclusion

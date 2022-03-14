@@ -71,7 +71,7 @@ def simplifyPath(path):
 
     #reason for adding adding / in for loop is to 
     #take care of edge case where input does not end with /
-    for p in path+"/":
+    for p in path + "/":
         if p == "/":
             if cur == "..":
                 if stack: stack.pop()
@@ -81,7 +81,6 @@ def simplifyPath(path):
         else:
             cur+=p
     return "/" + "/".join(stack)
-
 ```
 
 ## Conclusion
