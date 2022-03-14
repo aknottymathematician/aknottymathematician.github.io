@@ -1,9 +1,9 @@
 ---
-title: "Tries"
+title: "Implement Tries in Python"
 header:
   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
-excerpt: "Sort Linked List"
+excerpt: "Implement Tries in Python"
 mathjax: true
 toc: true
 author_profile: true
