@@ -52,15 +52,15 @@ Input - /a/b/c/../..
 
 We add the directory names according to the rules in a stack
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window.png" alt="simplify_path_step1.png">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/simplify_path_step1.png" alt="Step I">
 
 After adding b and c to the stack, we come accross, **..** which means go back to previous directory
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window.png" alt="simplify_path_step2.png">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/simplify_path_step2.png" alt="Step II">
 
 So we remove the directory names by using *pop()** function on stack, which removes the last element added in the stack.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sliding_window.png" alt="simplify_path_step3.png">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/simplify_path_step3.png" alt="Step III">
 
 
 ## Solution
