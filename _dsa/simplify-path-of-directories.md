@@ -58,7 +58,7 @@ After adding b and c to the stack, we come accross, **..** which means go back t
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/simplify_path_step2.png" alt="Step II">
 
-So we remove the directory names by using *pop()** function on stack, which removes the last element added in the stack.
+So we remove the directory names by using **pop()** function on stack, which removes the last element added in the stack.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/simplify_path_step3.png" alt="Step III">
 
