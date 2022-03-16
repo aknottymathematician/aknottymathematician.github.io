@@ -83,4 +83,4 @@ Time and Space Complexity both are O(N) where N is length of the string.<br />
 Reason for that is there is one pass over the string and stack of maximum length N.
 
 ## Refrence
-* [Code with Alisha](https://www.youtube.com/watch?v=wsikPyz0lGo)
+* [Leetcode](https://leetcode.com/problems/validate-stack-sequences/discuss/1083489/Python-Two-pointers-simulate-stack-explained)
