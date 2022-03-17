@@ -284,7 +284,7 @@ defaults:
       type: posts
     values:
       layout: single
-      #classes: wide
+      classes: wide
       comments: true
       entries_layout: grid
       author_profile: true
@@ -297,7 +297,7 @@ defaults:
       type: pages
     values:
       layout: single
-      #classes: wide
+      classes: wide
       entries_layout: grid
       author_profile: true
   # _dsa
@@ -306,7 +306,7 @@ defaults:
       type: dsa
     values:
       layout: single
-      #classes: wide
+      classes: wide
       comments: true
       entries_layout: grid
       author_profile: true
@@ -319,7 +319,7 @@ defaults:
       type: blog
     values:
       layout: single
-      #classes: wide
+      classes: wide
       comments: true
       entries_layout: grid
       author_profile: true
