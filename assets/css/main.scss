@@ -17,7 +17,7 @@ $a-tags: 'a';
 @import "minimal-mistakes";
 
 html {
-  font-size: 12px; // change to whatever
+  font-size: 14px; // change to whatever
 
   @include breakpoint($medium) {
     font-size: 14px; // change to whatever
