@@ -46,7 +46,7 @@ Let us try to build our answer in greedy way: we take alphabets one by one and p
 
 ## Solution
 ```python
-def remove DuplicateLetters(s):
+def removeDuplicateLetters(s):
     last_occ = {c:i for i, c in enumerate(s)}
     stack = ["!"]
     visited = set()
