@@ -1,10 +1,10 @@
 ---
 
-title: "Most Frequent Number follwoing a Key in Array"
+title: "Most Frequent Number following a Key in Array"
 header:
   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
-excerpt: "Most Frequent Number follwoing a Key in Array"
+excerpt: "Most Frequent Number following a Key in Array"
 mathjax: true
 toc: true
 author_profile: true
