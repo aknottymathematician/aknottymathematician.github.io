@@ -82,7 +82,7 @@ def numRescueBoats(people, limit):
 ```
 
 ## Conclusion
-This is quite a simple problem, the follow-up for this problem will be, (**what if more than two people could sit in one boat?**)[https://leetcode.com/problems/boats-to-save-people/discuss/156740/C%2B%2BJavaPython-Two-Pointers]
+This is quite a simple problem, the follow-up for this problem will be, [**what if more than two people could sit in one boat?**](https://leetcode.com/problems/boats-to-save-people/discuss/156740/C%2B%2BJavaPython-Two-Pointers)
 
 ## Refrence
 * [FlyKiller](https://flykiller.github.io/leetcode/0881)
