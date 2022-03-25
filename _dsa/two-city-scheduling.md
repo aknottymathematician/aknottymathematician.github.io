@@ -66,7 +66,7 @@ def twoCitySchedCost(costs):
 ```
 
 ## Conclusion
-This is quite a simple problem, the follow-up for this problem will be, [**what if more than two people could sit in one boat?**](https://leetcode.com/problems/boats-to-save-people/discuss/156740/C%2B%2BJavaPython-Two-Pointers)
+There are some amazing explanations [here](https://leetcode.com/problems/two-city-scheduling/discuss/278716/C++-O(n-log-n)-sort-by-savings/265369) and [here](https://leetcode.com/problems/two-city-scheduling/discuss/1881240/JavaC%2B%2B-THE-EASIEST-EXPLANATION)
 
 ## Refrence
-* [FlyKiller](https://flykiller.github.io/leetcode/0881)
+* [FlyKiller](https://flykiller.github.io/leetcode/1029)
