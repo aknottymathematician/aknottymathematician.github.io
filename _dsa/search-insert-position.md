@@ -63,7 +63,7 @@ In second approach, we use binary search with a small twist of returning *start*
 
 def searchInsert(nums, target):
     start = 0
-    end = len(nums)
+    end = len(nums)-1
 
     while start <= end:
         # to avoid overflow
