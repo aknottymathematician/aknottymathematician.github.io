@@ -10,9 +10,9 @@ toc: true
 author_profile: true
 ---
 
-## Problem Statement [I](https://leetcode.com/problems/binary-tree-level-order-traversal/) and [II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+## Problem Statements [I](https://leetcode.com/problems/binary-tree-level-order-traversal/) and [II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 
-**Problem I** Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
+**Problem I** Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).<br />
 **Problem II** Given the root of a binary tree, return the reverse level order traversal of its nodes' values. (i.e., from left to right, level by level).
 
 > **Example 1:** <br />
