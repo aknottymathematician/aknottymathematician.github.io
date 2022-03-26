@@ -78,7 +78,7 @@ figure.highlight {
   }
   .n {
     /* Name */
-    color: #000000;
+    color: $base01;
   }
   .o {
     /* Operator */
@@ -86,7 +86,7 @@ figure.highlight {
   }
   .p {
     /* Punctuation */
-    color: #000000;
+    color: $base01;
   }
   .cm {
     /* Comment.Multiline */
@@ -114,7 +114,7 @@ figure.highlight {
   }
   .gh {
     /* Generic.Heading */
-    color: #000000;
+    color: $base01;
     font-weight: bold;
   }
   .gi {
@@ -177,7 +177,7 @@ figure.highlight {
   }
   .nb {
     /* Name.Builtin */
-    color: #000000;
+    color: $base01;
   }
   .nc {
     /* Name.Class */
@@ -193,7 +193,7 @@ figure.highlight {
   }
   .ni {
     /* Name.Entity */
-    color: #000000;
+    color: $base01;
   }
   .ne {
     /* Name.Exception */
@@ -205,7 +205,7 @@ figure.highlight {
   }
   .nl {
     /* Name.Label */
-    color: #000000;
+    color: $base01;
   }
   .nn {
     /* Name.Namespace */
@@ -257,7 +257,7 @@ figure.highlight {
   }
   .sc {
     /* Literal.String.Char */
-    color: #000000;
+    color: $base01;
   }
   .sd {
     /* Literal.String.Doc */
@@ -297,7 +297,7 @@ figure.highlight {
   }
   .bp {
     /* Name.Builtin.Pseudo */
-    color: #000000;
+    color: $base01;
   }
   .vc {
     /* Name.Variable.Class */
