@@ -10,7 +10,7 @@ toc: true
 author_profile: true
 ---
 
-## [Problem Statement] (https://leetcode.com/problems/average-of-levels-in-binary-tree/)
+## [Problem Statement](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
 
 Given the root of a binary tree, return the average value of the nodes on each level in the form of an array. Answers within 10-5 of the actual answer will be accepted.
 
@@ -40,7 +40,7 @@ In the end we just return result.
 **Complexity**: Time complexity is O(n), space complexity is O(n).
 
 
-## Solution for Problem I
+## Solution
 ```python
 
 def levelOrder(root):
