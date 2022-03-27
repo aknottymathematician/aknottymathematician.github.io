@@ -12,7 +12,7 @@ author_profile: true
 
 ## [Problem Statement](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
 
-Given the root of a binary tree, return the average value of the nodes on each level in the form of an array. Answers within 10-5 of the actual answer will be accepted.
+Given the root of a binary tree, return the average value of the nodes on each level in the form of an array. Answers within 10<sup>-5<sup/> of the actual answer will be accepted.
 
 > **Example 1:** <br />
 *Input:* root = [3,9,20,null,null,15,7]<br />
