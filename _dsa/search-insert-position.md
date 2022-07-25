@@ -92,3 +92,4 @@ The purpose of Bisect algorithm is to find a position in list where an element n
 ## Refrence
 * [FlyKiller](https://flykiller.github.io/leetcode/0035)
 * [GFG](https://www.geeksforgeeks.org/bisect-algorithm-functions-in-python/)
+* [Scaler Topics](https://www.scaler.com/topics/data-structures/insertion-sort/)
