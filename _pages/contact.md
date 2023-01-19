@@ -6,7 +6,7 @@ header:
 
 ---
 
-I am an AI Engineer at [Miko](https://miko.ai/in), working in Natural Language Processing. I have completed my MSc in Mathematics from VNIT, Nagpur. I am a learner just like you and the blog posts I share are essentially the notes I take while studying, so if you find any mistakes in theoretical sections or errors in the codes please contact me, I'll make sure that I correct those as required.
+I work as an Assistant Manager AI/ML in Deloitte. I have completed my MSc in Mathematics from VNIT, Nagpur. I am a learner just like you and the blog posts I share are essentially the notes I take while studying, so if you find any mistakes in theoretical sections or errors in the codes please contact me, I'll make sure that I correct those as required.
 
 You can find me here - 
 
