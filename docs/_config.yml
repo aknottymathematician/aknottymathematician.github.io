@@ -100,9 +100,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jasraj Date"
+  name             : "A Knotty Mathematician "
   avatar           : "/assets/AKM-Profile-pic3_16-August-2020.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A math guy who knows a little bit about NLP"
+  bio              : "A math guy who knows a little bit about AI"
   location         : "Mumbai, MH"
   email            :
   links:
