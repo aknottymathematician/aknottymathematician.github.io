@@ -8,8 +8,8 @@ main:
     url: https://aknottymathematician.github.io/blog/
   - title: "ML & DL Glossary"
     url: https://aknottymathematician.github.io/glossary/
-  - title: "Contact"
-    url: https://aknottymathematician.github.io/contact/
+  # - title: "Contact"
+  #   url: https://aknottymathematician.github.io/contact/
 
   # - title: "Sample Collections"
   #   url: /collection-archive/
