@@ -15,8 +15,8 @@ gh_sponsor: chrisrhymes
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 force_theme: light
-# _config.yml
-remote_theme: chrisrhymes/bulma-clean-theme@v1.0.0
+# With GitHub Pages Gem
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
 paginate: 5
 paginate_path: "/blog/page:num"
