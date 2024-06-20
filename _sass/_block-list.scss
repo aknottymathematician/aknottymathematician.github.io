@@ -20,7 +20,7 @@ $gap: 20px; // Example gap value
   list-style: none;
 
   li {
-    padding: math.div($gap, 2);
+    padding: $gap / 2;
     background: var(--bulma-body-background-color);
     margin-bottom: $block-list-separator;
   }
@@ -43,7 +43,7 @@ $gap: 20px; // Example gap value
   li.is-small,
   &.is-small > li {
     font-size: $size-7;
-    padding: math.div($gap, 3);
+    padding: $gap / 3;
   }
 
   li.is-normal,
