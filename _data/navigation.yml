@@ -1,17 +1,21 @@
-# main links
-main:
-#   - title: "Home"
-#     url: https://aknottymathematician.github.io/
-  - title: "DSA Problems"
-    url: https://aknottymathematician.github.io/dsa/
-  - title: "Blog Posts"
-    url: https://aknottymathematician.github.io/blog/
-  - title: "ML & DL Glossary"
-    url: https://aknottymathematician.github.io/glossary/
-  # - title: "Contact"
-  #   url: https://aknottymathematician.github.io/contact/
-
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+- name: Docs
+  link: /docs/
+- name: Example Pages
+  link: /#
+  dropdown:
+    - name: Landing Page With Callouts
+      link: /landing/
+    - name: Promo Page
+      link: /promo-page/
+    - name: Sponsors Page
+      link: /sponsors/
+    - name: Image Gallery
+      link: /gallery/
+    - name: Products
+      link: /products/
+    - name: Recipe Page
+      link: /example-recipe/
+    - name: Showcase
+      link: /showcase/
+- name: Blog
+  link: /blog/

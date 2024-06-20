@@ -1,39 +1,19 @@
-<!-- <div class="page__footer-subscribe">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-    <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
+<footer class="footer">
+    <div class="container">
+        {% if site.footer_menu %}
+            <div class="columns is-multiline">
+                {% for item in site.data[site.footer_menu] %}
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
 
-    {% if site.footer.links %}
-    {% for link in site.footer.links %}
-    {% if link.label and link.url %}
-    <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}"
-          aria-hidden="true"></i> {{ link.label }}</a></li>
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-
-    <li><a
-        href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i
-          class="fas fa-fw fa-rss-square" aria-hidden="true"></i>
-        {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-  </ul>
-</div> -->
-
-<!-- <p><a href="http://feeds.feedburner.com/github-AKM"><img src="http://feeds.feedburner.com/~fc/github-AKM?bg=FF3333&amp;fg=FFFFFF&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p> -->
-
-
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
-  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com"
-    rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"
-    rel="nofollow">Minimal Mistakes</a>.</div>
-
-<!-- <form style="border:1px solid #ccc;padding:3px;text-align:center;"
-  action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"
-  onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=feedburner/aKM', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-  <p>Enter your email address:</p>
-  <p><input type="text" style="width:140px" name="email" /></p><input type="hidden" value="feedburner/aKM"
-    name="uri" /><input type="hidden" name="loc" value="en_US" /><input type="submit" value="Subscribe" />
-  <p>Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p>
-</form> -->
-<!-- <a href="https://feedburner.google.com/fb/a/mailverify?uri=feedburner/aKM&amp;loc=en_US">Subscribe to A Knotty Mathematician by Email</a> -->
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
