@@ -2,7 +2,7 @@
 lang: en
 title: Bulma Clean Theme
 tagline: Bulma Clean Theme
-email: your-email@domain.com
+email: 
 description:
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
 baseurl: 
@@ -85,4 +85,4 @@ collections:
     image: https://via.placeholder.com/800x600
     show_sidebar: false
 
-remote_theme: "chrisrhymes/bulma-clean-theme@v0.14.0"
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
