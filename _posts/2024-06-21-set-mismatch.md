@@ -3,7 +3,7 @@
 title: "Set Mismatch"
 # header:
 #   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
-excerpt_image: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
+excerpt_image: "/assets/images/DSA_Problems_Teaser_22-Jun-2024.jpg"
 excerpt: "Set Mismatch"
 # mathjax: true
 # toc: true

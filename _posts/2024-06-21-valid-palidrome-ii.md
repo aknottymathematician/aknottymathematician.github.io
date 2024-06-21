@@ -3,7 +3,7 @@
 title: "Valid Palindrome II"
 # banner:
 #   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
-excerpt_image: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
+excerpt_image: "/assets/images/DSA_Problems_Teaser_22-Jun-2024.jpg"
 excerpt: "Valid Palindrome II"
 # mathjax: true
 # toc: true
