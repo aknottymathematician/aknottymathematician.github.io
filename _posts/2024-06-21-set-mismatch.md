@@ -7,10 +7,8 @@ title: "Set Mismatch"
 excerpt: "Set Mismatch"
 # mathjax: true
 # toc: true
-# author_profile: true
 layout: post
-# title: Test markdown
-# subtitle: Each post also has a subtitle
+# author_profile: true
 categories: leetcode
 tags: [set][array]
 ---
