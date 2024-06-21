@@ -1,8 +1,8 @@
 ---
 
 title: "Valid Palindrome II"
-banner:
-  image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
+# banner:
+#   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
 excerpt_image: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
 excerpt: "Valid Palindrome II"
 # mathjax: true
