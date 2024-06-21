@@ -1,13 +1,18 @@
 ---
 
 title: "Set Mismatch"
-header:
-  image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
-  teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
+# header:
+#   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
+#   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
 excerpt: "Set Mismatch"
 mathjax: true
 toc: true
-author_profile: true
+# author_profile: true
+layout: post
+# title: Test markdown
+# subtitle: Each post also has a subtitle
+categories: markdown
+tags: [set][array]
 ---
 
 ## [Problem Statement](https://leetcode.com/problems/set-mismatch/)

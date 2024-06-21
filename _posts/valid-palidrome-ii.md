@@ -1,13 +1,16 @@
 ---
 
 title: "Valid Palindrome II"
-header:
-  image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
-  teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
+# header:
+#   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
+#   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
 excerpt: "Valid Palindrome II"
 mathjax: true
 toc: true
-author_profile: true
+layout: post
+# author_profile: true
+categories: markdown
+tags: [string]
 ---
 
 ## [Problem Statement](https://leetcode.com/problems/valid-palindrome-ii/)
