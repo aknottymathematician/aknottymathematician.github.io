@@ -10,7 +10,7 @@ excerpt: "Set Mismatch"
 layout: post
 # author_profile: true
 categories: leetcode
-tags: [set][array]
+tags: [set],[array]
 ---
 
 ## [Problem Statement](https://leetcode.com/problems/set-mismatch/)
