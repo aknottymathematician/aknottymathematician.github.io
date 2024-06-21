@@ -5,11 +5,11 @@ title: "Valid Palindrome II"
 #   image: "/assets/images/DSA_Problems_Banner_22-Feb-2022.png"
 #   teaser: "/assets/images/DSA_Problems_Teaser_22-Feb-2022.png"
 excerpt: "Valid Palindrome II"
-mathjax: true
-toc: true
+# mathjax: true
+# toc: true
 layout: post
 # author_profile: true
-categories: markdown
+categories: leetcode
 tags: [string]
 ---
 
